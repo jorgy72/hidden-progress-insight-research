@@ -1,5 +1,13 @@
 # Dated changes
 
+## Version 2.1 — 30 September 2026
+
+Responds to the user-supplied independent Opus review of v2. Reconciles every notebook main section with the actual verification ledger; historical entries are preserved and labelled. Restores concrete failed approaches/anomalies. Adds a short plain-language opening to the report/README and makes those requirements explicit in the workflow.
+
+Adds a registered three-anchor Europe PMC/NCBI forward-citation check with exact queries, response hashes, metadata export and selected primary screening. Six further studies enter the report at their actual reading depths. A pre-correlation frontal signal, smoothing and exclusion/equivalence limits are explicit. This remains bounded follow-up with unscreened leads, not comprehensive citation screening or saturation.
+
+Removes the local source folder location from the current workflow/export. Earlier public commits retain historical content; their history was not rewritten. The v2 publication is preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/8444c2d2148270f7af0a09c4945f33a469658ecd). The amendments are self-checked, with no fresh independent v2.1 review or biological experiment.
+
 ## Version 2 — 30 September 2026
 
 Authorized research rerun and publication after Opus's v1 critique. Expanded primary-source/citation searches; added the three omissions and related studies/alternative mechanisms. The central conclusion remains mixed, with stronger animal evidence that neural change can precede behaviour while still being abrupt.
@@ -8,7 +16,7 @@ Added exact query batches, selection/access log, coverage/stopping audit, regist
 
 Repaired retrieval provenance and caching; added meaningful offline failure tests and a verified no-change cached rerun. Preserved v1 manifest/history and original public files. Added local-learning alternatives, model-recovery/equivalence checks and changepoint-alignment controls to the unrun experiment proposal.
 
-No original-study replication, new biological experiment or independent v2 critic review is claimed. Some studies remain abstract/preview or partial-page only. This is a focused review, not systematic search saturation.
+At the time of v2 publication, no original-study replication, new biological experiment or independent v2 critic review was claimed. Some studies remain abstract/preview or partial-page only. This is a focused review, not systematic search saturation.
 
 ## Version 1 — 30 September 2026
 

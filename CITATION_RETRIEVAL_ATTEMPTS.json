@@ -1,0 +1,24 @@
+{
+  "retrieved_at_utc": "2026-09-30T23:26:44.172235+00:00",
+  "note": "Follow-up full-text requests after indexed discovery; only relevant sections read as described in the ledger. Existing download cache manifest is unchanged.",
+  "attempts": [
+    {
+      "id": "PMC10552945",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10552945/fullTextXML",
+      "status": "failed",
+      "error": "500 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10552945/fullTextXML"
+    },
+    {
+      "id": "PMC12424963",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12424963/fullTextXML",
+      "status": "retrieved",
+      "sha256": "ecd77ab5641171ead4436619ee55ff3751d5a02d913cc18112231b99d03dbfe8"
+    },
+    {
+      "id": "PMC9447375",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9447375/fullTextXML",
+      "status": "retrieved",
+      "sha256": "00333237aba8649caad82d0d1756cfae36699cb598b389b20e83cf8f80555f77"
+    }
+  ]
+}

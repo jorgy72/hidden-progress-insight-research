@@ -18,5 +18,22 @@
     }
   },
   "scientific_replication": "not performed",
-  "biological_experiment": "proposal only"
+  "biological_experiment": "proposal only",
+  "version_2_1": {
+    "date": "2026-09-30",
+    "notebook_main_sections_reconciled": true,
+    "notebook_export_matches_current": true,
+    "plain_language_opening_present": true,
+    "current_export_private_paths_absent": true,
+    "v1_archive_byte_identical": true,
+    "all_three_anchor_index_requests_succeeded": true,
+    "returned_europe_pmc_pages_complete": true,
+    "selected_primary_records": 15,
+    "selected_publication_dates_within_cutoff": true,
+    "all_index_records_fully_screened": false,
+    "global_citation_coverage_complete": false,
+    "fresh_independent_amendment_review": "not performed",
+    "publication_verification": "separate receipt after publication",
+    "syntax_check": "ast.parse passed; py_compile attempted a system cache write and was replaced with a read-only parse"
+  }
 }

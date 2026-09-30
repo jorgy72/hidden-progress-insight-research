@@ -1,0 +1,11 @@
+{
+  "cutoff": "2026-09-30",
+  "anchors": {
+    "Schuck2015": "25819613",
+    "PowellRedish2016": "27653278",
+    "Knoblich2001": "11820744"
+  },
+  "scope": "Three-anchor indexed forward check, not an exhaustive literature search.",
+  "screening": "Metadata discovery followed by title triage and primary-source checking of potentially direct new leads.",
+  "coverage_limit": "Europe PMC citations use open PMC/Crossref data; NCBI citedin is a subset, not every global citing paper."
+}

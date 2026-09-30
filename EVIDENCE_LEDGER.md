@@ -1,4 +1,4 @@
-# Evidence and inspection ledger — v2
+# Evidence and inspection ledger — v2.1
 
 Reading depth is separate from evidential strength. “Relevant text” does not imply complete statistical/supplement audit. Original-study data and published simulations were **not rerun**. Source files and figure renders stay local; all claims remain independently checkable through the primary links.
 
@@ -38,3 +38,16 @@ Codes: G = graded behavioural change; P = relevant precursor without demonstrate
 `SOURCE_LIST.json` declares downloadable **resources**, not all cited studies: some claims were inspected through primary abstracts/web readers only, and Drieu has PDF and XML resource IDs. `source_manifest.json` is the deduplicated current cache view. `retrieval_attempts.jsonl` preserves actual v2 script/manual attempts, including DNS restrictions, 403 responses, timeouts and XML failure. A failed local download can coexist with primary text inspected through the web reader; the table states which route was used.
 
 `SOURCE_HISTORY_V1.json` preserves all 15 original records unchanged, including failures/alternate sources. The v2 script does not pretend to reproduce unlogged v1 searches or all manually acquired v1 bytes. Reading provenance is in this ledger; a saved file is not a verified claim.
+
+## Indexed-citation additions — version 2.1
+
+| Study / primary identifier | Code | Precisely inspected | Unresolved audit boundary |
+|---|---|---|---|
+| [Ninomiya 2022](https://doi.org/10.3389/fpsyg.2022.934029) | P | Primary XML task, gaze Methods, Results and Discussion. | Retrospective grouping/exclusions; coarse trial comparisons, wide equivalence bounds; no smooth ramp established. |
+| [Allegra 2020](https://doi.org/10.1016/j.neuroimage.2020.116854) | S/P network | Author PDF selected pp. 2–5, 9–13. | Same Schuck dataset; early connectivity starts before useful correlation. Connectivity is not decoded solution content. |
+| [Lu 2023](https://doi.org/10.1523/jneurosci.2172-22.2023) | P; intervention provisional | Primary abstract via Europe PMC; indexed primary excerpts. | Full XML failed; stimulation Methods/controls unverified, session-level timing. |
+| [Ding 2025](https://doi.org/10.1523/jneurosci.1670-24.2025) | P; graded reward signal | Primary XML task/decoding Methods and relevant Results/Discussion. | Smoothed, aligned estimates in four rats; no causal switching manipulation. |
+| [Russo 2021](https://doi.org/10.1523/jneurosci.2588-20.2021) | P/J provisional | Primary abstract via Europe PMC. | Full temporal/statistical Methods not inspected. |
+| [Singh 2019](https://doi.org/10.1523/jneurosci.1370-17.2019) | S/plasticity provisional | Primary abstract via Europe PMC. | Sleep/training comparison, not within-impasse solution trajectory; full Methods unchecked. |
+
+[Indexed-citation audit](CITATION_INDEX_AUDIT.md) records discovery, decisions, access failures and unscreened candidates. Download records for the two new XML files are separate from the earlier cache instrument; full text remains local.

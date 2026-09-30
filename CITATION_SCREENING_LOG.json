@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-30",
+  "method": "15 priority/NCBI-only primary abstracts; selected follow-ups. Not dual screening or full screening of all returned metadata.",
+  "abstract_query_template": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:{PMID}%20AND%20SRC:MED&format=json&resultType=core",
+  "selected_records": [
+    {
+      "pmid": "32334091",
+      "title": "Brain network dynamics during spontaneous strategy shifts and incremental task optimization.",
+      "doi": "10.1016/j.neuroimage.2020.116854",
+      "authors": "Allegra M, Seyed-Allaei S, Schuck NW, Amati D, Laio A, Reverberi C.",
+      "firstPublicationDate": "2020-04-22",
+      "primary_record_url": "https://europepmc.org/article/MED/32334091",
+      "disposition": "included",
+      "reason": "Selected author-PDF sections; shared-data and pre-correlation-state limits."
+    },
+    {
+      "pmid": "37607820",
+      "title": "Theta Signal Transfer from Parietal to Prefrontal Cortex Ignites Conscious Awareness of Implicit Knowledge during Sequence Learning.",
+      "doi": "10.1523/jneurosci.2172-22.2023",
+      "authors": "Lu Y, Guo X, Weng X, Jiang H, Yan H, Shen X, Feng Z, Zhao X, Li L, Zheng L, Liu Z, Men W, Gao JH.",
+      "firstPublicationDate": "2023-08-22",
+      "primary_record_url": "https://europepmc.org/article/MED/37607820",
+      "disposition": "included provisional",
+      "reason": "Primary abstract/excerpts only; failed full XML; intervention controls unverified."
+    },
+    {
+      "pmid": "40097186",
+      "title": "Ventral Tegmental Area Dopamine Neural Activity Switches Simultaneously with Rule Representations in the Medial Prefrontal Cortex and Hippocampus.",
+      "doi": "10.1523/jneurosci.1670-24.2025",
+      "authors": "Ding M, Tomsick PL, Young RA, Jadhav SP.",
+      "firstPublicationDate": "2025-09-10",
+      "primary_record_url": "https://europepmc.org/article/MED/40097186",
+      "disposition": "included",
+      "reason": "Relevant primary XML Methods/Results; Gaussian smoothing and small sample explicit."
+    },
+    {
+      "pmid": "23526396",
+      "title": "Temporal dynamics of mental impasses underlying insight-like problem solving.",
+      "doi": "10.1007/s11427-013-4454-8",
+      "authors": "Shen W, Liu C, Yuan Y, Zhang X, Luo J.",
+      "firstPublicationDate": "2013-03-23",
+      "primary_record_url": "https://europepmc.org/article/MED/23526396",
+      "disposition": "excluded from core",
+      "reason": "Primary abstract: impasse formation ERPs, not a solution-progress trajectory through impasse."
+    },
+    {
+      "pmid": "36081729",
+      "title": "Differences in the distribution of attention to trained procedure between finders and non-finders of the alternative better procedure.",
+      "doi": "10.3389/fpsyg.2022.934029",
+      "authors": "Ninomiya Y, Terai H, Miwa K.",
+      "firstPublicationDate": "2022-08-23",
+      "primary_record_url": "https://europepmc.org/article/MED/36081729",
+      "disposition": "included",
+      "reason": "Relevant primary XML; pre-expression gaze, no inferred smooth ramp; exclusions/equivalence bounds explicit."
+    },
+    {
+      "pmid": "30814311",
+      "title": "Medial Prefrontal Cortex Population Activity Is Plastic Irrespective of Learning.",
+      "doi": "10.1523/jneurosci.1370-17.2019",
+      "authors": "Singh A, Peyrache A, Humphries MD.",
+      "firstPublicationDate": "2019-02-27",
+      "primary_record_url": "https://europepmc.org/article/MED/30814311",
+      "disposition": "included provisional",
+      "reason": "Primary abstract; nonspecific plasticity counterexample, not neural solution ramp."
+    },
+    {
+      "pmid": "33531416",
+      "title": "Coordinated Prefrontal State Transition Leads Extinction of Reward-Seeking Behaviors.",
+      "doi": "10.1523/jneurosci.2588-20.2021",
+      "authors": "Russo E, Ma T, Spanagel R, Durstewitz D, Toutounji H, K\u00f6hr G.",
+      "firstPublicationDate": "2021-02-02",
+      "primary_record_url": "https://europepmc.org/article/MED/33531416",
+      "disposition": "included provisional",
+      "reason": "Primary abstract; extinction temporal Methods unchecked."
+    },
+    {
+      "pmid": "40569931",
+      "title": "N2 sleep promotes the occurrence of 'aha' moments in a perceptual insight task.",
+      "doi": "10.1371/journal.pbio.3003185",
+      "authors": "L\u00f6we AT, Petzka M, Tzegka MM, Schuck NW.",
+      "firstPublicationDate": "2025-06-26",
+      "primary_record_url": "https://europepmc.org/article/MED/40569931",
+      "disposition": "background",
+      "reason": "Primary abstract: sleep EEG/stage association with later insight, not decoded content progressing through impasse; full Methods unchecked."
+    },
+    {
+      "pmid": "12930477",
+      "title": "Eye movements and problem solving: guiding attention guides thought.",
+      "doi": "10.1111/1467-9280.02454",
+      "authors": "Grant ER, Spivey MJ.",
+      "firstPublicationDate": "2003-09-01",
+      "primary_record_url": "https://europepmc.org/article/MED/12930477",
+      "disposition": "background",
+      "reason": "Primary abstract: diagram fixations and visual cue intervention; no verified uninterrupted individual progress trajectory."
+    },
+    {
+      "pmid": "38405946",
+      "title": "Cost-benefit Tradeoff Mediates the Rule- to Memory-based Processing Transition during Practice.",
+      "doi": "10.1101/2024.02.13.580214",
+      "authors": "Yang G, Jiang J.",
+      "firstPublicationDate": "2024-10-24",
+      "primary_record_url": "https://europepmc.org/article/MED/38405946",
+      "disposition": "deferred final Methods",
+      "reason": "Primary preprint abstract; practice/cost-benefit selection alternative; final PMID39847600 already indexed; do not count as independent studies."
+    },
+    {
+      "pmid": "39314386",
+      "title": "Practice Reshapes the Geometry and Dynamics of Task-tailored Representations.",
+      "doi": "10.1101/2024.09.12.612718",
+      "authors": "Kikumoto A, Shibata K, Nishio T, Badre D.",
+      "firstPublicationDate": "2024-09-15",
+      "primary_record_url": "https://europepmc.org/article/MED/39314386",
+      "disposition": "excluded from core",
+      "reason": "Primary preprint abstract: routine practice EEG geometry, not specified impasse/sudden strategy discovery; final PMID40882180 in index."
+    },
+    {
+      "pmid": "39314328",
+      "title": "Ventral tegmental area dopamine neural activity switches simultaneously with rule representations in the prefrontal cortex and hippocampus.",
+      "doi": "10.1101/2024.09.09.611811",
+      "authors": "Ding M, Tomsick PL, Young RA, Jadhav SP.",
+      "firstPublicationDate": "2025-02-11",
+      "primary_record_url": "https://europepmc.org/article/MED/39314328",
+      "disposition": "duplicate publication family",
+      "reason": "Primary preprint abstract; use final Ding2025, not a separate replication."
+    },
+    {
+      "pmid": "38370807",
+      "title": "Neural signatures of opioid-induced risk-taking behavior in the prelimbic prefrontal cortex.",
+      "doi": "10.1101/2024.02.05.578828",
+      "authors": "Quave CB, Vasquez AM, Aquino-Miranda G, Mar\u00edn M, Bora EP, Chidomere CL, Zhang XO, Engelke DS, Do-Monte FH.",
+      "firstPublicationDate": "2024-12-23",
+      "primary_record_url": "https://europepmc.org/article/MED/38370807",
+      "disposition": "excluded from core",
+      "reason": "Primary preprint abstract: opioid-related risk/conflict group activity; not specified pre-breakthrough dynamics; final PMID40097184 indexed."
+    },
+    {
+      "pmid": "40027783",
+      "title": "Rhythmic modulation of dorsal hippocampus across distinct behavioral timescales during spatial set-shifting.",
+      "doi": "10.1101/2025.02.19.639177",
+      "authors": "Bottoms M, Miles JT, Mizumori SJY.",
+      "firstPublicationDate": "2025-02-20",
+      "primary_record_url": "https://europepmc.org/article/MED/40027783",
+      "disposition": "deferred preprint lead",
+      "reason": "Primary abstract reports hippocampal rhythmic changes during switching. Preprint status and timing/analysis unresolved; do not use as verified core evidence."
+    },
+    {
+      "pmid": "30618985",
+      "title": "Unconditional Perseveration of the Short-Term Mental Set in Chunk Decomposition.",
+      "doi": "10.3389/fpsyg.2018.02568",
+      "authors": "Huang F, Tang S, Hu Z.",
+      "firstPublicationDate": "2018-12-11",
+      "primary_record_url": "https://europepmc.org/article/MED/30618985",
+      "disposition": "excluded from core",
+      "reason": "Primary abstract: trained mental-set accuracy/RT across conditions, not within-impasse hidden progress."
+    }
+  ],
+  "unselected_records": "deferred/title-level discovery only, not evidence or adjudicated exclusions",
+  "web_queries": [
+    {
+      "service": "web search",
+      "date": "2026-09-30",
+      "exact_queries": [
+        "site.pubmed.ncbi.nlm.nih.gov \"Medial prefrontal cortex predicts internally driven strategy shifts\"",
+        "site.ncbi.nlm.nih.gov \"pubmed_pubmed_citedin\" cited by citations",
+        "site.europepmc.org REST citations API",
+        "\"Theta Signal Transfer\" \"2023\" precuneus",
+        "\"Brain network dynamics during spontaneous strategy shifts\" Allegra",
+        "\"Europe PMC\" \"citation data\" \"Crossref\""
+      ],
+      "purpose": "Resolve anchor PMID, primary API documentation, and author text for selected indexed leads."
+    }
+  ],
+  "web_reader_access_failures": [
+    "Europe PMC REST/help open returned 403; primary help was available in indexed text.",
+    "Direct PubMed/PMC web opens for selected follow-ups returned empty pages or access checks. Primary abstracts were instead retrieved through Europe PMC core search."
+  ]
+}

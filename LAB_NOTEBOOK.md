@@ -1,6 +1,6 @@
-# Lab Notebook
+# Lab Notebook — current synthesis, version 2.1
 
-Investigation started 2026-09-30. Previous notebook preserved in research/2026-09-30-hidden-progress/previous-LAB_NOTEBOOK.md.
+Investigation started 30 September 2026. The main sections below supersede earlier summaries. Dated entries at the end retain what was known and done at each stage; pending statements there are historical. Earlier report versions are preserved in GitHub history.
 
 ## Current Question
 
@@ -8,70 +8,75 @@ During apparent impasse before human insight or animal strategy change, does mea
 
 ## Current Model
 
-Mixed, task-dependent account. Acquisition, neural representation, policy expression, and conscious report can have distinct time courses. Behavioral ramps, neural precursors, abrupt ensemble transitions, and context-gated latent knowledge are all observed within specific tasks. No universal mechanism established.
+Feeling stuck can conceal earlier change, but that change need not be a smooth approach to a solution. Different tasks show gradual attention changes, earlier neural representations, abrupt recorded neural transitions and competence revealed by a different context. Acquisition, representation, strategy selection, performance and conscious recognition can have different time courses. Their relationship during a particular prolonged human impasse remains unknown.
 
 ## Competing Hypotheses
 
 H1: Continuous solution-specific accumulation precedes abrupt report/output.
-H2: Discrete representational transition produces abrupt neural and behavioral change.
-H3: Mixed: gradual learning enables a discrete transition; context gates expression.
-H4: Apparent ramps or jumps arise from averaging, response alignment, filtering, or selection.
+H2: A rapid representational transition produces abrupt recorded neural change.
+H3: Earlier learning enables a later switch; task context gates expression.
+H4: Averaging, filtering, response alignment or selection creates apparent ramps/jumps.
+H5: Local learning can produce sudden end-to-end success without a global insight transition; Reddy's model and shared-data behavioural reanalysis make this an alternative, not an observed neural mechanism.
 
 ## Assumptions
 
-Animal rule switching is comparable to some human strategy change, but animal Aha phenomenology cannot be inferred. Neural activity is not identical to synaptic learning. Lack of detected progress is not proof of none.
+Animal switching illuminates some strategy dynamics, without establishing animal Aha experience or equivalence to novel human puzzle insight. Recorded neural activity is not identical to synaptic learning. Earlier activity and drift are not automatically useful progress. A null result does not establish absence; decoding is not causality. Verification depth and evidence strength are separate.
 
 ## Experiments Run
 
-Registered primary-source literature audit: extract task, measure, time resolution, precursor type, directness, and generalization. No new biological experiment. Preserve source search results and an evidence ledger.
+Focused literature audits and provenance checks, followed by a three-anchor indexed forward-citation check. No new biological experiment, original-data reanalysis or replication of the cited studies. Retrieval instrument tests address file integrity/repeatability, not scientific conclusions. Current report, ledger and proposed experiment are the version 2.1 handoff; local working files remain under research/2026-09-30-hidden-progress/v2.
 
 ## Results
 
-Primary evidence adjudicated in research/2026-09-30-hidden-progress/EVIDENCE_LEDGER.md. Strong behavioral graded precursors: Ellis 2011 and Bilalic 2021. Human neural precursors: Rose 2010 and Schuck 2015, with coarse time resolution and limited generalization. Fast neural events/transitions: Jung-Beeman 2004, Durstewitz 2010, Karlsson 2012, Siniscalchi 2016. Latent task knowledge and causal acquisition/expression dissociation: Kuchibhotla 2019 and Drieu 2025. Nanda 2023 kept as artificial-system analogy.
+[The report](REPORT.md) and [inspection ledger](EVIDENCE_LEDGER.md) are authoritative for study-specific measurements and limits. Full relevant primary reading supports heterogeneous individual gaze trajectories in Bilalić, coarse pre-response attentional changes in Knoblich/Tseng, and neural representations preceding human switching in Schuck/Rose. Powell and Hasz support earlier rat neural state changes, without establishing a continuous solution ramp. Indexed follow-up adds Ninomiya's pre-expression gaze difference, Allegra's shared-data/pre-correlation connectivity, and Ding's earlier reward-related firing with smoothed decoding. Lu's human theta/stimulation, Russo's extinction and Singh's nonspecific plasticity remain provisional at abstract or excerpt depth. Townsend measures abrupt human aiming changes, not brain activity or independently reported Aha onset. Rosenberg shows both abrupt and gradual mouse behavioural improvement; Reddy supplies a competing model with reused behavioural data. Kuchibhotla supports context-dependent latent competence. Ellis, Kounios, Durstewitz and Karlsson remain abstract/preview-only; Drieu remains a two-page reading. Those limitations prevent upgrading them to fully verified strong/causal evidence. Nanda and other artificial systems remain analogies.
 
 ## Failed Approaches
 
-None yet. Search snippets count only as leads; full text preferred, abstract-only limitations explicit.
+The v1 search stopped without defensible yield evidence and omitted relevant studies. An unlabeled download list could not reconstruct selection history. Some primary retrievals failed because of access checks, timeouts or extraction failures; available bytes did not establish reading. V2 corrected the report but failed to reconcile these notebook main sections and left stale placeholders. This version repairs that reporting failure while preserving historical entries. Web searches could not provide a genuine forward-citation export; the indexed follow-up now addresses that narrow gap, without proving comprehensive coverage.
 
 ## Surprises / Anomalies
 
-Pending.
+Graf's abrupt illustration uses simulated data rather than the original gradual empirical shift. Powell's neural change precedes behaviour yet is itself described as abrupt: precedence and gradualness are independent. Hasz's measurable drift need not be learning progress. Bilalić has 19% unclassifiable trajectories and a p = .06 subjective-suddenness comparison. Tseng has internal reporting discrepancies. Indexed citations yield further relevant leads, so neither repeated familiar hits nor this correction establishes saturation.
 
 ## Strongest Evidence For
 
-For hidden progress: solution-relevant gaze changes in Ellis 2011; individual gradual trajectories in Bilalic 2021; rule-relevant MPFC decoding before strategy shift in Schuck 2015; task-specific BOLD/EEG coherence before abrupt output in Rose 2010. Latent knowledge: contextual probes in Kuchibhotla 2019 and cortical imaging/perturbation in Drieu 2025.
+For measured gradual behavioural change: Bilalić's individual trajectories, with classification/time-bin limitations; Knoblich/Tseng add coarser attentional evidence. For neural-before-behaviour change: relevant primary methods/results in Schuck, Rose, Powell, Hasz and Ding, with small/task-specific samples and block/lap/trial resolution. For acquisition/expression separation: Kuchibhotla's context probes. These support different claims, not one universal continuous accumulation mechanism. Ellis and Drieu remain provisional at their stated inspection depths and are not elevated here.
 
 ## Strongest Evidence Against
 
-Against universal gradual representation change: abrupt recorded rat frontal ensemble shifts in Durstewitz 2010 and Karlsson 2012; individual abrupt gaze patterns coexist with gradual ones in Bilalic 2021. Against universal neural/behavioral synchrony: Siniscalchi 2016 neural transition precedes recovery; Schuck 2015 precursor precedes behavioral change. These do not rule out unseen synaptic accumulation.
+Against universal smooth recorded neural change: Powell's abrupt strategy transitions and Siniscalchi's rapid population change; Durstewitz/Karlsson are supplementary abstract-level leads. Against universal smooth behavioural change: abrupt trajectories coexist with gradual ones in Bilalić/Rosenberg; Townsend detects single-trial aiming shifts. Against interpreting every early signal as progress: preparation and rule-independent drift lack demonstrated solution-specific accumulation. None rules out earlier change in unobserved synapses or regions.
 
 ## Kill Zones
 
-H1 weakened by adequately powered single-trial absence of a meaningful ramp plus a discrete neural jump. H2 weakened by prospective solution-specific precursor predicting time and content before report. H3 must outperform simpler models on held-out trials. H4 weakened by independently replicated raw/single-trial results with leakage controls.
+H1 requires prospective solution-content prediction and must survive alignment/leakage controls; it is weakened by adequately powered equivalence bounds excluding a meaningful ramp. H2 is weakened if continuous content changes explain held-out data better than rapid transitions. H3 must outperform simpler accumulation/switch/selection models rather than absorbing every result. H4 is weakened by replicated raw individual trajectories with independent timing. H5 must predict route-length-dependent learning and causal dynamics beyond a retrospective fit.
 
 ## Robust Findings
 
-1. Subjective suddenness does not demonstrate absence of earlier objective change.
-2. Earlier brain activity is not automatically solution-specific progress.
-3. Some population transitions are genuinely fast at recorded trial resolution.
-4. Learning and behavioral expression are dissociable.
-5. Group averaging and measurement filtering can alter apparent trajectory shape.
+1. Subjective suddenness does not establish absence of earlier objective change.
+2. Earlier brain activity does not establish graded, solution-specific progress.
+3. Some recorded population transitions are fast at their sampled resolution.
+4. Learning and ordinary behavioural expression can dissociate in specific tasks.
+5. Averaging, sampling, exclusions and alignment can change apparent trajectory shape.
 
 ## Speculative Interpretations
 
-Thresholded accumulation and metastable attractor switching are candidates, not findings.
+Thresholded accumulation, attractor switching and strategy selection remain candidate mechanisms. No universal mechanism or measured synaptic trajectory through natural impasse is established.
 
 ## Newly Discovered Abstractions
 
-Separate acquisition from expression; separate precursor state from solution content.
+Separate acquisition, representation, strategy selection, expression and recognition; distinguish solution-content precursors from preparation/drift; distinguish an indexed citation from a verified relevant finding.
 
 ## Next Best Experiment
 
-Prospective solution-content decoding with independent training data, individual-trial ramp/change-point/hybrid model comparison, context/no-report/probe controls, and randomized closed-loop rodent perturbations. Full proposal: research/2026-09-30-hidden-progress/NEXT_EXPERIMENT.md. A new toy simulation would not adjudicate biological mechanisms and was not run.
+Prospective solution-content decoding trained independently; individual ramp/changepoint/hybrid/local-learning model comparison; model-recovery, equivalence, alignment and no-report/probe controls; randomized closed-loop rodent perturbations. [The proposed experiment](NEXT_EXPERIMENT.md) is unrun. A new toy simulation alone would not settle the biological question.
 
 ## Confidence / Remaining Uncertainty
 
-High that both hidden precursors and abrupt sampled-population transitions exist within these task families; moderate on a mixed organizing interpretation; low on prevalence or a universal neural mechanism. Unknown whether each precursor is causal/necessary, whether synaptic changes are continuous, and how results generalize to long natural impasses.
+High confidence in the task-bounded coexistence of earlier measured change and abrupt expression/recorded transitions in fully inspected studies. Moderate confidence in the mixed organizing account; low confidence in prevalence, continuous synaptic accumulation, precursor necessity or generalization to prolonged natural human impasses. Limited-reading papers retain lower verification. Indexed coverage and deeper methods checks remain incomplete. Independent Opus feedback on v2 is user-supplied review testimony; the current corrections are self-checked, not a fresh independent review.
+
+## Historical dated entries
+
+The entries below preserve the chronology. Their then-current claims and unfinished actions are not the current synthesis above.
 
 ## Audit update, 2026-09-30
 
@@ -120,3 +125,13 @@ Negative/access results retained: sandbox DNS failures; author-site 403 for Hasz
 Audit corrections: restored Bilalic unclassifiable group and p=.06 boundary; retained simulated-versus-empirical Graf distinction; corrected Nanda cleanup stage; isolated preparation/autonomic signals; split model weights from human measures and Reddy's reanalysis from inferred dynamics; flagged Tseng internal table inconsistencies. No new original-study analyses run.
 
 Retrieval instrument: stable resource declarations/current cache separated from dated attempts and unchanged v1 history; content-addressed refresh prevents overwriting earlier bytes. Four offline tests passed covering repeat-run identity, access challenges/retry, corrupt cache/unknown IDs, duplicate declarations and failed-refresh retention. A real default rerun used only valid caches or skipped recorded failures, with no new attempts. V2 stopping is bounded coverage, not low-yield/saturation. Separate skeptical self-review completed; no independent v2 review claimed. Publication still pending at this notebook entry.
+
+## V2 publication completed and verified, 2026-09-30
+
+Published the complete v2 handoff to https://github.com/jorgy72/hidden-progress-insight-research at commit 8444c2d2148270f7af0a09c4945f33a469658ecd using a non-forced main update based on the verified v1 parent. Original nine v1 files preserved byte-for-byte under versions/v1 and in original commit history. Public package contains 30 files and excludes full papers, extracted article text, figure renders, unrelated notebooks and private local paths.
+
+Connector fetch of main/FULL_RESEARCH.md matched local text exactly (135,959 characters). Anonymous pinned raw retrieval verified SHA256 hashes for all 30 public files, including the hash manifest; web reader also fetched the complete handoff without authentication. Publication receipt: research/2026-09-30-hidden-progress/PUBLICATION_V2.json. The published notebook is a frozen pre-publication snapshot: its historical pending entry describes its state at that entry, superseded by this local completion receipt. No independent v2 review or original-study replication was performed.
+
+## Version 2.1 review corrections prepared, 2026-09-30
+
+The user's independent Opus review of published v2 was checked against local artifacts. Main notebook sections reconciled; plain-language report opening added; source location removed from current workflow. Europe PMC and NCBI indexed forward retrieval succeeded for three anchors, yielding 317 Europe PMC anchor-record links/299 source-ID pairs. Fifteen selected primary abstracts checked; six studies added at actual inspection depth. Other records remain unscreened/deferred. Lu full XML failed with HTTP 500; Ding/Ninomiya XML succeeded. No saturation, complete global citing index, full causal Lu audit or fresh independent amendment review is claimed. Current changes await publication verification at this dated entry.

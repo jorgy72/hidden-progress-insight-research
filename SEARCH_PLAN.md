@@ -15,3 +15,7 @@ Starting material leads: Powell & Redish 2016; Knoblich et al. 2001; Townsend et
 Stopping: record each batch's new relevant candidates and interpretation changes, document remaining access/coverage gaps, and stop at a bounded focused scope rather than claiming exhaustive saturation. Material contradictory/new direct evidence triggers additional targeted audit. Proposed experiment remains unrun.
 
 Review: original user-supplied independent Opus review drives corrections; v2 receives a separate skeptical self-review. No new independent critic is claimed unless one actually reviews v2.
+
+## Dated follow-up — version 2.1
+
+Original v2 plan above is preserved. The registered indexed-citation follow-up is in [CITATION_INDEX_PLAN.json](CITATION_INDEX_PLAN.json). The second user-supplied Opus review concerns the published v2; current amendments are self-checked. Indexed retrieval is complete only for its returned pages/three anchors, not for every global citing paper or full relevance screening.

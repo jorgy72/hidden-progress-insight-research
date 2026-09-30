@@ -2,7 +2,7 @@
 
 Workspace operating method adopted by the user from the five-page `Research lab prompt.pdf`.
 
-Source: `[local user]/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Mir theory /Research prompt/Research lab prompt.pdf`
+Source: user-provided `Research lab prompt.pdf`. Local source location omitted from shareable documents.
 
 This is a working transcription and condensation of the adopted workflow, with dated operational improvements learned from completed investigations and review. It establishes how to investigate substantial research questions; it does not supply a research topic or initiate experiments by itself.
 
@@ -126,6 +126,7 @@ Added 2026-09-30 after external review of the hidden-progress investigation. Sca
 
 - Define inclusion/exclusion criteria and a coverage map before searching: populations/species, tasks, measures, timescales, competing mechanisms, supporting and opposing findings. Search for each materially different explanation rather than following only the first promising papers.
 - Maintain a structured SEARCH_LOG alongside the notebook. For each batch record the date, exact queries, search engine/database and filters, candidate identifiers/URLs, discovery route, inclusion/exclusion/defer reasons and access failures. Raw search results and download manifests supplement this log; they do not replace it. Mark retrospective reconstruction as retrospective, and unknown queries as unknown.
+- Use available citation indexes (for example NCBI ELink citedin or Europe PMC citations) for forward retrieval; author-name web searches are only a fallback. Record complete returned-page retrieval separately from relevance screening; check publication dates and preprint/final duplicates before treating records as cutoff-qualified independent studies. Every index has coverage limits.
 - Follow backward references and forward citations from the central anchor papers. Record which anchors were checked, the service and date, relevant candidates and decisions, and any unavailable citation index. Include a targeted recent-literature search through a stated cutoff date. Citation proximity alone does not establish relevance or independence.
 - Before stopping, record the yield of the final search and citation-chasing batches: new relevant candidates, new measures/mechanisms or contradictions, and changes to the synthesis. Review unfilled coverage areas and unresolved directly relevant leads. Repeatedly finding familiar papers is not sufficient evidence of saturation.
 - If stopping because of access, time or diminishing returns, state that reason and the remaining gaps. Do not substitute an unsupported claim of low information gain. Discovery of a material omission reopens the affected part of the search rather than requiring every source to be collected.
@@ -142,6 +143,8 @@ Added 2026-09-30 after external review of the hidden-progress investigation. Sca
 
 - Use a declared source list and stable source identifiers. Reconcile it with the retrieval manifest; explain historical attempts, alternate URLs, excluded leads and script changes rather than claiming the current script reproduces every past action.
 - Repeated default retrieval must not silently append duplicate stable records. Reuse validated cached files; keep explicit refresh/retry attempts in a separate dated history and update a deduplicated current view. Preserve failures and changed hashes. Verify this behaviour before calling an instrument repeatable.
+- Before sharing a revision, reconcile the notebook's main sections with the current evidence ledger. Preserve dated entries as history, label superseded conclusions and remove stale placeholders. Inspection limits must travel with claims in every summary, including the notebook.
+- Check current public exports for personal paths and unnecessary private context, including relative folder names; removing only the username is insufficient. Preserve research provenance without publishing local source locations.
 - Share the search/selection log, evidence ledger, verification limits, notebook, exclusions and experiment status with the final report. Check that the handoff actually includes them. Preserve the original version and provide a dated change log for revisions; distinguish local edits from published revisions.
 
 ### Critic pass and response
@@ -156,7 +159,7 @@ Prefer experiments over speculation, mechanisms over labels, discriminating evid
 
 Explain useful results at two levels:
 
-1. Plain-language interpretation.
+1. A short plain-language interpretation at the start, preserving the key uncertainty and giving primary-source examples.
 2. Technical evidence and limitations.
 
 ## Guiding principles

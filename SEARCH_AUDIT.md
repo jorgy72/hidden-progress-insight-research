@@ -1,8 +1,12 @@
-# Search, selection and stopping audit — v2
+# Search, selection and stopping audit — v2 with v2.1 amendment
 
 Cutoff: **30 September 2026**. Focused coverage audit, not a systematic review. Plan recorded before the expanded searches in [SEARCH_PLAN.md](SEARCH_PLAN.md). Exact search strings, service and filters are in [SEARCH_BATCHES.json](SEARCH_BATCHES.json); primary access/citation decisions are in [SEARCH_LOG.jsonl](SEARCH_LOG.jsonl). Logs contain routes and decisions, not copyrighted article excerpts.
 
 The v1 retrieval manifest was not a search log. Its missing query/ranking history cannot be reconstructed reliably; we preserve it as history instead of inventing it. The separately preserved v1 files retain their original, now inadequate stopping assertion.
+
+## Version 2.1 amendment
+
+A real indexed forward-citation check is now documented in [CITATION_INDEX_AUDIT.md](CITATION_INDEX_AUDIT.md), with a plan, exact API URLs, retrieved metadata and selected-primary decisions. It adds six further report studies; some remain provisional. The sections below record the v2 routes and limitations as performed, rather than retroactively converting web searches into indexed retrieval. The user-supplied independent Opus review of v2 has now arrived; amendments received a self-check.
 
 ## Search batches and observed information gain
 
@@ -51,4 +55,4 @@ These batches **continued yielding relevant evidence**. We do not claim saturati
 | Recent human switching | Löwe 2024, Townsend 2026 | Human behavioural abruptness does not settle neural accumulation. |
 | Model analogy/preparation boundary | Nanda, Löwe network, Reddy, Doulfoukar; Kounios/Stuyck | A matching model or early state is insufficient biological proof. |
 
-Scope limitations: one investigator; English-language targeted web searching; no comprehensive PsycINFO/Web of Science/Scopus export; no dual independent screening; incomplete raw search-result preservation; bounded citation chasing; no effect-size meta-analysis or study-data replication. The critic pass for this version is explicitly **self-review**, with Opus's earlier independent critique retained as v1 feedback.
+V2 scope limitations at publication: one investigator; English-language targeted web searching; no comprehensive PsycINFO/Web of Science/Scopus export; no dual independent screening; incomplete raw search-result preservation; bounded citation chasing; no effect-size meta-analysis or study-data replication. The prepublication critic pass for v2 was explicitly **self-review**, with Opus's earlier independent critique retained as v1 feedback.
