@@ -22,15 +22,3 @@ Predictions and weakening conditions:
 - Correct knowledge revealed early by context change, without new training, favors acquisition/expression gating; persistent probe effects would expose a probe-induced-learning alternative.
 
 This could adjudicate mechanisms within the tested task family. It cannot prove that no unrecorded neuron, synapse, or biochemical variable changed, or settle every kind of real-world insight. Replication across tasks and species is required for broader generalization.
-
-## V2 additions: distinguish local learning from a global switch
-
-Include a sequential-local-learning alternative explicitly, motivated by [Reddy (2022)](https://doi.org/10.1073/pnas.2215352119). In the animal maze arm, vary tree versus densely connected topology and start-to-goal distance while matching exposure and motor difficulty as far as feasible. Track individual junction choices and short-route competence before the long end-to-end route improves. Compare staggered content/value changes from near-goal to distant junctions against a simultaneous global rule/map transition. Abrupt end-to-end accuracy alone is not an identifying observation.
-
-Calibrate detection before testing a null. Use separate pilot/instructed-rule recordings to specify the smallest precursor magnitude and duration that would materially affect the mechanism. Choose animal/session and human/problem counts by prospective power/model-recovery simulation rather than inventing an evidence-free sample size. Inject synthetic ramps and steps into realistic recordings, including observation filtering, drift and missing trials; lock analysis only after adequate recovery. Report uncertainty and equivalence bounds, and state which unobserved variables remain unconstrained.
-
-Estimate switch timing prospectively from held-out observations where possible. If a changepoint is fitted to the same output used to display the “jump,” use null/model simulations to measure the alignment-induced effect. Include models with equalized complexity and compare out-of-sample predictive performance; the best of three selected models is not automatically the true mechanism.
-
-Recruit tasks with independently measured failure/stuckness alongside tasks in which the old policy still works. This separates optimization from genuine impasse. Decode incorrect hypotheses and competing policies, not just the eventual successful one. An intervention that changes arousal, attention, reward expectation or expression without changing later knowledge should not be called selective disruption of acquisition.
-
-All additions remain **unrun proposals**. Published data/code were located for some studies, but no original study analysis or simulation was replicated during the v2 literature rerun.

@@ -1,0 +1,173 @@
+[
+  {
+    "name": "schuck2015",
+    "requested_url": "https://schucklab.gitlab.io/docs/papers/Schuck_etal_2015_Neuron.pdf",
+    "retrieved_utc": "2026-09-30T22:11:33.980363+00:00",
+    "final_url": "https://schucklab.gitlab.io/docs/papers/Schuck_etal_2015_Neuron.pdf",
+    "content_type": "application/pdf",
+    "sha256": "7173a24268f6682147f4805a218ce24a4d0ccbd7df41969b9e1f9751e9b8f74f",
+    "bytes": 1606959,
+    "pages": 11,
+    "extraction": "pypdf; page reading order may vary; selected figures inspected separately",
+    "status": "saved",
+    "path": "sources/schuck2015.pdf",
+    "visual_inspection_pages": [
+      4,
+      5
+    ]
+  },
+  {
+    "name": "rose2010",
+    "requested_url": "https://www.kognition.uni-koeln.de/literature/Rose_Haider_Buechel_2010.pdf",
+    "retrieved_utc": "2026-09-30T22:11:35.686572+00:00",
+    "final_url": "https://www.kognition.uni-koeln.de/literature/Rose_Haider_Buechel_2010.pdf",
+    "content_type": "application/pdf",
+    "sha256": "deb2fc4a44803b267fdd892880590a8513b7e659f3ac5286d59880a46a6514f1",
+    "bytes": 864221,
+    "pages": 11,
+    "extraction": "pypdf; page reading order may vary; selected figures inspected separately",
+    "status": "saved",
+    "path": "sources/rose2010.pdf",
+    "visual_inspection_pages": [
+      6
+    ]
+  },
+  {
+    "name": "siniscalchi2016",
+    "requested_url": "https://alexkwanlab.org/wp-content/uploads/2019/02/siniscalchiNatNeurosci2016.pdf",
+    "retrieved_utc": "2026-09-30T22:11:41.088157+00:00",
+    "status": "failed",
+    "error": "406 Client Error: Not Acceptable for url: https://alexkwanlab.org/wp-content/uploads/2019/02/siniscalchiNatNeurosci2016.pdf"
+  },
+  {
+    "name": "metcalfe1987",
+    "requested_url": "https://www.columbia.edu/cu/psychology/metcalfe/PDFs/Metcalfe%20Wiebe%201987.pdf",
+    "retrieved_utc": "2026-09-30T22:11:41.473159+00:00",
+    "final_url": "https://www.columbia.edu/cu/psychology/metcalfe/PDFs/Metcalfe%20Wiebe%201987.pdf",
+    "content_type": "application/pdf",
+    "sha256": "7794d738e5f76c518b824c86753ed967e9903439356da9e79366018f15073cd3",
+    "bytes": 810549,
+    "pages": 9,
+    "extraction": "pypdf; page reading order may vary; selected figures inspected separately",
+    "status": "saved",
+    "path": "sources/metcalfe1987.pdf"
+  },
+  {
+    "name": "drieu2025",
+    "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13034642/fullTextXML",
+    "retrieved_utc": "2026-09-30T22:11:42.862985+00:00",
+    "status": "failed",
+    "error": "500 Server Error:  for url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13034642/fullTextXML"
+  },
+  {
+    "name": "kuchibhotla2019",
+    "requested_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6517418/fullTextXML",
+    "retrieved_utc": "2026-09-30T22:11:43.822552+00:00",
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6517418/fullTextXML",
+    "content_type": "application/xml",
+    "sha256": "c9b37676e6c1a0a21b80e0bc333389d9262bebcb454e7c8200f024c6f0161d3c",
+    "bytes": 174035,
+    "extraction": "tag-stripped text; raw XML retained",
+    "status": "saved",
+    "path": "sources/kuchibhotla2019.xml"
+  },
+  {
+    "name": "jungbeeman2004",
+    "requested_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0020097&type=printable",
+    "retrieved_utc": "2026-09-30T22:11:45.127280+00:00",
+    "final_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0020097&type=printable",
+    "content_type": "application/pdf",
+    "sha256": "5ab0cd5e0d7fcdf6ed3c8ca3e2431704f272ba76757979dc0072a90991f9a491",
+    "bytes": 356826,
+    "pages": 11,
+    "extraction": "pypdf; page reading order may vary; selected figures inspected separately",
+    "status": "saved",
+    "path": "sources/jungbeeman2004.pdf"
+  },
+  {
+    "name": "nanda2023",
+    "requested_url": "https://arxiv.org/pdf/2301.05217",
+    "retrieved_utc": "2026-09-30T22:11:46.003020+00:00",
+    "final_url": "https://arxiv.org/pdf/2301.05217",
+    "content_type": "application/pdf",
+    "sha256": "93dcdafc2ecf75d31ab2e32e74cdc11e2e488fec42edfef58ad3d4b6515bcd5f",
+    "bytes": 3057847,
+    "pages": 35,
+    "extraction": "pypdf; page reading order may vary; selected figures inspected separately",
+    "status": "saved",
+    "path": "sources/nanda2023.pdf"
+  },
+  {
+    "name": "drieu2025",
+    "requested_url": "https://cdn.prod.website-files.com/690a83fda53579ba8497635f/69bbf890f8d2b187f99e3620_2025_Nature_Drieu.pdf",
+    "retrieved_utc": "2026-09-30T22:13:10.557117+00:00",
+    "status": "saved",
+    "bytes": 10465863,
+    "pages": 36,
+    "sha256": "8c4586306785a777965532a0bf41b2705f7e48582092f764ed09b69db17d021e",
+    "final_url": "https://cdn.prod.website-files.com/690a83fda53579ba8497635f/69bbf890f8d2b187f99e3620_2025_Nature_Drieu.pdf",
+    "path": "sources/drieu2025.pdf",
+    "extraction": "pypdf",
+    "substantive_text_extracted": false,
+    "visual_inspection_pages": [
+      1,
+      2
+    ],
+    "inspection_note": "Image-only final article; title, abstract and Fig 1 inspected from rendered pages."
+  },
+  {
+    "name": "graf2023",
+    "requested_url": "https://eprints.whiterose.ac.uk/199182/1/jintelligence-11-00086-v2.pdf",
+    "retrieved_utc": "2026-09-30T22:13:10.999725+00:00",
+    "status": "saved",
+    "bytes": 3081190,
+    "pages": 18,
+    "sha256": "e63bf218a1375c2e1833904cbd818cacf503740563ae400fedfab871d34a8c47",
+    "final_url": "https://eprints.whiterose.ac.uk/id/eprint/199182/1/jintelligence-11-00086-v2.pdf",
+    "path": "sources/graf2023.pdf",
+    "extraction": "pypdf"
+  },
+  {
+    "name": "bowden1998",
+    "requested_url": "https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/a/699/files/2015/11/Getting-the-right-idea-Semantic-activation-in-the-right-hemisphere-may-help-solve-insight-problems-154um4l.pdf",
+    "retrieved_utc": "2026-09-30T22:13:14.712900+00:00",
+    "status": "saved",
+    "bytes": 69806,
+    "pages": 6,
+    "sha256": "cae2f436cb756db92f93753077d02a840678a69d05b98eab2c6884f382ce97ee",
+    "final_url": "https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/a/699/files/2015/11/Getting-the-right-idea-Semantic-activation-in-the-right-hemisphere-may-help-solve-insight-problems-154um4l.pdf",
+    "path": "sources/bowden1998.pdf",
+    "extraction": "pypdf"
+  },
+  {
+    "name": "gallistel2004",
+    "requested_url": "https://nemenmanlab.org/~ilya/images/5/5e/Gallistel-etal-04.pdf",
+    "retrieved_utc": "2026-09-30T22:13:15.602804+00:00",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='nemenmanlab.org', port=443): Max retries exceeded with url: /~ilya/images/5/5e/Gallistel-etal-04.pdf (Caused by ConnectTimeoutError(<HTTPSConnection(host='nemenmanlab.org', port=443) at 0x106219ca0>, 'Connection to nemenmanlab.org timed out. (connect timeout=30)'))"
+  },
+  {
+    "name": "siniscalchi2016",
+    "requested_url": "https://alexkwanlab.org/wp-content/uploads/2019/02/siniscalchiNatNeurosci2016.pdf",
+    "retrieved_utc": "2026-09-30T22:13:45.659589+00:00",
+    "status": "saved",
+    "bytes": 1954732,
+    "pages": 12,
+    "sha256": "950f2c35fbd3665077b3217bc619118ca8fe7617056fbdd792d772c453d74236",
+    "final_url": "https://alexkwanlab.org/wp-content/uploads/2019/02/siniscalchiNatNeurosci2016.pdf",
+    "path": "sources/siniscalchi2016.pdf",
+    "extraction": "pypdf"
+  },
+  {
+    "name": "bilalic2021",
+    "requested_url": "https://neuroscienceofexpertise.com/Publications/papers/Bilalic_2021_Insight.pdf",
+    "final_url": "https://neuroscienceofexpertise.com/Publications/papers/Bilalic_2021_Insight.pdf",
+    "retrieved_utc": "2026-09-30T22:16:31.952969+00:00",
+    "status": "saved",
+    "pages": 37,
+    "bytes": 2360903,
+    "sha256": "f6235acd7777a5633e6b058855b47d58d96d71c07f8f48a58c8df7cad9e34756",
+    "extraction": "pypdf",
+    "path": "sources/bilalic2021.pdf"
+  }
+]

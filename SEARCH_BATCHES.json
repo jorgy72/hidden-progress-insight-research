@@ -1,0 +1,64 @@
+[
+  {
+    "id": "B1",
+    "date": "2026-09-30",
+    "route": "missing-study retrieval and recent coverage",
+    "service": "web search",
+    "queries": [
+      "\"Knoblich\" \"Ohlsson\" \"Raney\" 2001 eye movement pdf",
+      "\"Townsend\" \"An Aha moment precedes\" pdf",
+      "\"prefrontal\" \"latent\" \"strategy\" \"2026\" representation",
+      "insight hidden progress gradual neural 2024 2025 2026 study"
+    ],
+    "filters": "none"
+  },
+  {
+    "id": "B2",
+    "date": "2026-09-30",
+    "route": "primary-source retrieval; targeted forward citing searches of Schuck and Durstewitz",
+    "service": "web search",
+    "queries": [
+      "\"Townsend\" \"An Aha moment precedes\" site:eprints.whiterose.ac.uk",
+      "\"Knoblich\" \"An eye movement study\" site:link.springer.com",
+      "\"Schuck\" \"2015\" \"Abrupt and spontaneous strategy switches\" neural networks",
+      "\"Durstewitz\" \"2010\" \"Powell\" \"Redish\" strategy changes"
+    ],
+    "filters": "domains explicit in two query strings; none otherwise"
+  },
+  {
+    "id": "B3",
+    "date": "2026-09-30",
+    "route": "backward leads from Bilalic; independent recent and animal-task coverage",
+    "service": "web search",
+    "queries": [
+      "\"Tseng\" \"2014\" insight eye movements",
+      "\"Cushen\" \"Wiley\" \"2012\" insight",
+      "\"insight\" \"gradual\" \"neural\" \"2025\" \"2026\"",
+      "\"Rosenberg\" \"2021\" mice maze sudden insight"
+    ],
+    "filters": "none"
+  },
+  {
+    "id": "B4",
+    "date": "2026-09-30",
+    "route": "forward follow-up of Rosenberg; disambiguate backward title; recent boundary studies",
+    "service": "web search",
+    "queries": [
+      "\"A reinforcement-based mechanism for discontinuous learning\"",
+      "\"Cues to solution, restructuring patterns\" pdf",
+      "\"Time-dependent deployment of medial prefrontal cortical representations in male mice\"",
+      "\"From pre-stimulus preparation\" \"2026\" insight"
+    ],
+    "filters": "none"
+  },
+  {
+    "id": "B5",
+    "date": "2026-09-30",
+    "route": "resolve screened memory lead identifier; no new core claim",
+    "service": "web search",
+    "queries": [
+      "\"Insight predicts subsequent memory\" \"2025\""
+    ],
+    "filters": "none"
+  }
+]

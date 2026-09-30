@@ -1,50 +1,102 @@
-"""Preserve a focused primary-source corpus with hashes and extraction provenance."""
+"""Cache a declared primary corpus; current state and append-only attempts are separate.
+Python 3.9+, requests; pypdf is optional. No credentials or paywall bypass.
+"""
+import argparse, datetime, hashlib, json, re
 from pathlib import Path
-import hashlib, json, datetime, re
 import requests
-from pypdf import PdfReader
 
-ROOT = Path(__file__).parent
-SOURCES = {
- 'schuck2015': 'https://schucklab.gitlab.io/docs/papers/Schuck_etal_2015_Neuron.pdf',
- 'rose2010': 'https://www.kognition.uni-koeln.de/literature/Rose_Haider_Buechel_2010.pdf',
- 'siniscalchi2016': 'https://alexkwanlab.org/wp-content/uploads/2019/02/siniscalchiNatNeurosci2016.pdf',
- 'metcalfe1987': 'https://www.columbia.edu/cu/psychology/metcalfe/PDFs/Metcalfe%20Wiebe%201987.pdf',
- 'drieu2025': 'https://cdn.prod.website-files.com/690a83fda53579ba8497635f/69bbf890f8d2b187f99e3620_2025_Nature_Drieu.pdf',
- 'kuchibhotla2019': 'https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6517418/fullTextXML',
- 'jungbeeman2004': 'https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.0020097&type=printable',
- 'nanda2023': 'https://arxiv.org/pdf/2301.05217',
- 'bowden1998': 'https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/a/699/files/2015/11/Getting-the-right-idea-Semantic-activation-in-the-right-hemisphere-may-help-solve-insight-problems-154um4l.pdf',
- 'bilalic2021': 'https://neuroscienceofexpertise.com/Publications/papers/Bilalic_2021_Insight.pdf',
- 'graf2023': 'https://eprints.whiterose.ac.uk/199182/1/jintelligence-11-00086-v2.pdf',
-}
-def main():
-    records = []
-    for name, url in SOURCES.items():
-        record = dict(name=name, requested_url=url, retrieved_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+def run(root, selected=None, refresh=False, retry_failed=False, fetch=None):
+    root = Path(root)
+    declarations = json.loads((root / 'SOURCE_LIST.json').read_text())
+    ids = [s['id'] for s in declarations]
+    if len(ids) != len(set(ids)):
+        raise ValueError('Duplicate declared source ID')
+    if selected and not set(selected).issubset(ids):
+        raise ValueError('Unknown requested source ID')
+    manifest_path = root / 'source_manifest.json'
+    current = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    before = json.dumps(current, sort_keys=True)
+    attempts = []
+    (root / 'sources').mkdir(exist_ok=True)
+    for source in declarations:
+        sid, url = source['id'], source['url']
+        if selected and sid not in selected:
+            continue
+        previous = current.get(sid, {})
+        cache = root / previous.get('path', '__missing__')
+        same_url = previous.get('requested_url') == url
+        valid = (same_url and previous.get('status') == 'saved' and cache.is_file()
+                 and digest(cache.read_bytes()) == previous.get('sha256'))
+        if valid and not refresh:
+            print(sid, 'cached')
+            continue
+        if same_url and previous.get('status') == 'failed' and not (retry_failed or refresh):
+            print(sid, 'previous failure; use --retry-failed')
+            continue
+        record = dict(id=sid, requested_url=url,
+                      retrieved_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
         try:
-            r=requests.get(url,headers={'User-Agent':'Mozilla/5.0'},timeout=45);r.raise_for_status()
-            record.update(final_url=r.url,content_type=r.headers.get('content-type'),sha256=hashlib.sha256(r.content).hexdigest(),bytes=len(r.content))
-            ext='pdf' if r.content.startswith(b'%PDF') else 'xml' if 'xml' in r.headers.get('content-type','') else 'html'
-            dest=ROOT/'sources'/f'{name}.{ext}';dest.parent.mkdir(exist_ok=True);dest.write_bytes(r.content)
-            if ext=='pdf':
-                pdf=PdfReader(dest);record['pages']=len(pdf.pages)
-                extracted='\n\n'.join(f'=== PDF PAGE {i+1} ===\n'+(p.extract_text() or '') for i,p in enumerate(pdf.pages))
-                record['extraction']='pypdf; page reading order may vary; selected figures inspected separately'
-                record['substantive_text_extracted']=len(re.sub(r'=== PDF PAGE \d+ ===','',extracted).strip()) > 500
-                if not record['substantive_text_extracted']:
-                    record['inspection_required']='Image-only PDF: render and inspect pages; file presence is not content verification.'
+            response = (fetch or requests.get)(url, headers={'User-Agent': 'ResearchLab/2.0'}, timeout=35)
+            response.raise_for_status()
+            data = response.content
+            if not data:
+                raise ValueError('Empty response')
+            content_type = response.headers.get('content-type', '')
+            ext = 'pdf' if data.startswith(b'%PDF') else 'xml' if 'xml' in content_type else 'html'
+            if ext == 'html' and any(x in response.text[:6000].lower() for x in
+                    ('checking your browser', 'captcha', 'enable javascript to proceed', 'client challenge')):
+                raise ValueError('Access challenge; response is not article content')
+            # Content-addressed files preserve older bytes when --refresh changes a source.
+            sha = digest(data)
+            path = Path('sources') / (sid + '-' + sha[:12] + '.' + ext)
+            (root / path).write_bytes(data)
+            record.update(status='saved', final_url=response.url, content_type=content_type,
+                          bytes=len(data), sha256=sha, path=path.as_posix())
+            if ext == 'pdf':
+                try:
+                    from pypdf import PdfReader
+                    pdf = PdfReader(root / path)
+                    extracted = '\n\n'.join(f'=== PDF PAGE {i+1} ===\n' + (p.extract_text() or '')
+                                             for i, p in enumerate(pdf.pages))
+                    record.update(pages=len(pdf.pages), extraction='pypdf; reading order may vary',
+                                  substantive_text_extracted=len(re.sub(r'=== PDF PAGE \d+ ===', '', extracted).strip()) > 500)
+                    if not record['substantive_text_extracted']:
+                        record['inspection_required'] = 'Render pages; empty text is not evidence of reading.'
+                    (root / path).with_suffix('.txt').write_text(extracted)
+                except Exception as error:
+                    record['extraction_error'] = str(error)
             else:
-                extracted=re.sub(r'<[^>]+>',' ',r.text)
-                extracted=re.sub(r'\s+',' ',extracted)
-                record['extraction']='tag-stripped text; raw XML retained'
-            dest.with_suffix('.txt').write_text(extracted)
-            record['status']='saved';record['path']=str(dest.relative_to(ROOT))
-        except Exception as e:
-            record.update(status='failed',error=str(e))
-        records.append(record);print(name,record['status'],record.get('bytes',record.get('error')))
-    manifest=ROOT/'source_manifest.json'
-    if manifest.exists():
-        records=json.loads(manifest.read_text())+records
-    manifest.write_text(json.dumps(records,indent=2)+'\n')
-if __name__=='__main__': main()
+                # This is a navigation aid, not an article-content verifier.
+                extracted = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', response.text))
+                (root / path).with_suffix('.txt').write_text(extracted)
+                record['extraction'] = 'tag-stripped navigation aid; verify article content separately'
+        except Exception as error:
+            record.update(status='failed', error=str(error))
+            if valid:
+                # A failed refresh must not erase a valid previously cached source.
+                record['previous_valid_cache_retained'] = True
+        attempts.append(record)
+        if record['status'] == 'saved' or not valid:
+            current[sid] = record
+        print(sid, record['status'], record.get('bytes', record.get('error')))
+    if before != json.dumps(current, sort_keys=True):
+        temp = manifest_path.with_suffix('.tmp')
+        temp.write_text(json.dumps(current, indent=2, sort_keys=True) + '\n')
+        temp.replace(manifest_path)
+    if attempts:
+        with (root / 'retrieval_attempts.jsonl').open('a') as stream:
+            for record in attempts:
+                stream.write(json.dumps(record, sort_keys=True) + '\n')
+    return current, attempts
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--root', type=Path, default=Path(__file__).parent)
+    parser.add_argument('--only', nargs='+')
+    parser.add_argument('--refresh', action='store_true')
+    parser.add_argument('--retry-failed', action='store_true')
+    args = parser.parse_args()
+    run(args.root, args.only, args.refresh, args.retry_failed)

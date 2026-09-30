@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-30",
+  "offline_tests": {
+    "command": "python3 -m unittest discover -s . -p test_fetch_sources.py",
+    "tests": 4,
+    "result": "passed"
+  },
+  "cached_default_rerun": {
+    "command": "python3 fetch_sources.py",
+    "manifest_and_history_byte_identical": true,
+    "sha256_before": {
+      "source_manifest.json": "adda388c5f746dd5ea20712aa4218fd5537ce1777925478710967a1bb8b42439",
+      "retrieval_attempts.jsonl": "fa16e82d53a67b21489fe28ffec113c76364fc4d0fca4c96f6fc49579accdd53"
+    },
+    "sha256_after": {
+      "source_manifest.json": "adda388c5f746dd5ea20712aa4218fd5537ce1777925478710967a1bb8b42439",
+      "retrieval_attempts.jsonl": "fa16e82d53a67b21489fe28ffec113c76364fc4d0fca4c96f6fc49579accdd53"
+    }
+  },
+  "scientific_replication": "not performed",
+  "biological_experiment": "proposal only"
+}

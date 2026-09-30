@@ -1,22 +1,36 @@
-# Hidden progress before insight: complete research handoff
+# Hidden progress before insight — version 2
 
-Prepared 2026-09-30. Start with FULL_RESEARCH.md: it contains the entire report, evidence ledger, inquiry notebook, experiment proposal, source manifest and retrieval script in one file.
+Focused research rerun, **30 September 2026**, responding to an independent Opus review of version 1. Human and animal evidence, precise measured variables, generalization limits, source inspection levels, competing mechanisms and an unrun discriminating experiment.
 
-This is a focused literature assessment, not an exhaustive systematic review. No new biological experiment was run. Source access limitations and failed retrievals are retained. Neural-network grokking is explicitly separated from biological evidence.
+**Read the whole handoff:** [FULL_RESEARCH.md](FULL_RESEARCH.md)
 
-## For another model
+**Direct text for another model:** [raw FULL_RESEARCH.md](https://raw.githubusercontent.com/jorgy72/hidden-progress-insight-research/main/FULL_RESEARCH.md)
 
-Read FULL_RESEARCH.md in full. Audit the claims against the linked primary studies. Distinguish measurements from interpretations; distinguish solution-specific gradual progress, nonspecific precursors, abrupt sampled-population transitions, latent knowledge and artificial-system analogy. Pay particular attention to individual versus averaged trajectories, measurement filtering, causal evidence and generalization. Identify errors or unsupported claims before extending the proposed experiment. Source retrieval code is provided for reproducibility and should be reviewed before running; some sources may remain inaccessible.
+The central result: measurable change can precede sudden strategy expression, and the measured neural transition can itself be abrupt. Precedence, gradualness, latent competence and awareness are separate questions.
 
 ## Contents
 
-- REPORT.md: full research answer with specific-study citations and limitations.
-- EVIDENCE_LEDGER.md: source-by-source measurements, findings, categories and access audit.
-- LAB_NOTEBOOK.md: competing hypotheses, revisions, exclusions, uncertainty and stopping decision.
-- NEXT_EXPERIMENT.md: proposed discriminating experiment; not executed.
-- source_manifest.json: retrieval provenance, hashes and failed attempts. Paths identify locally retained source files, which are not included in this handoff.
-- fetch_sources.py: optional retrieval/extraction script. Dependencies: Python 3, requests, pypdf. It writes a sources directory and appends retrieval records when run.
-- FULL_RESEARCH.md: all the above as one self-contained text document.
-- FILE_HASHES.json: integrity hashes for this handoff.
+- [Report](REPORT.md) and [evidence/inspection ledger](EVIDENCE_LEDGER.md).
+- [Registered search plan](SEARCH_PLAN.md), [search/selection audit](SEARCH_AUDIT.md), [exact query batches](SEARCH_BATCHES.json) and [machine-readable log](SEARCH_LOG.jsonl).
+- [Response to the critique and v2 self-review](REVIEW_RESPONSE.md), [dated changes](CHANGELOG.md) and [lab notebook](LAB_NOTEBOOK.md).
+- [Proposed experiment](NEXT_EXPERIMENT.md) and [research workflow](WORKFLOW.md).
+- [Declared download resources](SOURCE_LIST.json), [current cache manifest](source_manifest.json), [v1 history](SOURCE_HISTORY_V1.json), [v2 retrieval attempts](retrieval_attempts.jsonl), retrieval script/tests and [validation results](VALIDATION.json).
+- [Original v1 files](versions/v1), also preserved at [the original commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/a0dad4503c621923d42299cf8fdc377c3d13d03b).
 
-Third-party full papers are linked rather than rehosted. Unrelated prior lab work and private workspace history are outside this inquiry package.
+## Interpretation and reproducibility limits
+
+This is a focused review, not a systematic review or saturation claim. Verification levels remain visible, including abstract-only and partial-page sources. The earlier independent critique concerned v1; the v2 critic pass is **self-review**, not independent review. No biological experiment or original-study analysis/simulation replication was run.
+
+Downloaded third-party papers, source extracts and figure renders are **not rehosted**. Follow primary links for inspection. The manifest records local retrieval and hashes, not full reading verification. Some studies were inspected through web-reader primary text/abstracts and are not download resources.
+
+To reconstruct the declared cache in a fresh directory with Python 3.9+:
+
+```sh
+python3 -m pip install requests pypdf
+python3 fetch_sources.py
+python3 -m unittest discover -s . -p test_fetch_sources.py
+```
+
+Copy `SOURCE_LIST.json` and the script there first. If using this repository directly, the cached source files are absent: saved manifest entries will be re-fetched, while recorded failures require `--retry-failed`. Default validated-cache reruns are byte-identical; `--refresh` explicitly creates new attempts and retains earlier content-addressed bytes. Upstream access/bytes may change. The current script cannot reconstruct unlogged v1 searches or every manual v1 acquisition.
+
+`FILE_HASHES.json` covers this complete package, including archived v1, excluding itself. The combined text contains all current documents/code/provenance records; v1 is linked and separately preserved so outdated claims do not appear as current conclusions.
