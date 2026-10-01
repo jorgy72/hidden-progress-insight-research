@@ -1,6 +1,8 @@
-# Hidden progress before insight — version 2.1
+# Hidden progress before insight — workflow/handoff 2.2; research 2.1
 
-Focused research rerun, **30 September 2026**, revised after independent Opus reviews of versions 1 and 2. Human and animal evidence, precise measured variables, generalization limits, source inspection levels, competing mechanisms and an unrun discriminating experiment.
+**30 September 2026.** This package adds a fresh discovery stage to the reusable workflow. The scientific report, evidence ledger and proposed biological experiment remain version 2.1. No new literature rerun or reading-depth upgrade was performed for this method update.
+
+Discovery sequence: neutral brief → fresh context and bounded search → freeze output/log → reconcile candidates → verify and synthesize → critic pass. The received fresh Opus answer is reconciled retrospectively; its unseen search history and independence are not invented.
 
 **Read the whole handoff:** [FULL_RESEARCH.md](FULL_RESEARCH.md)
 
@@ -10,17 +12,18 @@ Feeling stuck does not necessarily mean nothing is changing. Some studies find u
 
 ## Contents
 
+- [Fresh discovery brief and record](FRESH_DISCOVERY_TEMPLATE.md), [literature audit template](LITERATURE_AUDIT_TEMPLATE.md) and [retrospective candidate reconciliation](DISCOVERY_RECONCILIATION.md).
 - [Report with plain-language opening](REPORT.md) and [evidence/inspection ledger](EVIDENCE_LEDGER.md).
 - [Indexed forward-citation audit](CITATION_INDEX_AUDIT.md), [metadata](CITATION_INDEX_RESULTS.json), [selected primary checks](CITATION_SCREENING_LOG.json) and reproducible citation-retrieval script.
 - [Registered search plan](SEARCH_PLAN.md), [search/selection audit](SEARCH_AUDIT.md), [exact query batches](SEARCH_BATCHES.json) and [machine-readable log](SEARCH_LOG.jsonl).
 - [Response to the critique and v2 self-review](REVIEW_RESPONSE.md), [dated changes](CHANGELOG.md) and [lab notebook](LAB_NOTEBOOK.md).
 - [Proposed experiment](NEXT_EXPERIMENT.md) and [research workflow](WORKFLOW.md).
 - [Declared download resources](SOURCE_LIST.json), [current cache manifest](source_manifest.json), [v1 history](SOURCE_HISTORY_V1.json), [v2 retrieval attempts](retrieval_attempts.jsonl), retrieval script/tests and [validation results](VALIDATION.json).
-- [Original v1 files](versions/v1), with v2 preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/8444c2d2148270f7af0a09c4945f33a469658ecd); v1 also preserved at [the original commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/a0dad4503c621923d42299cf8fdc377c3d13d03b).
+- [Original v1 files](versions/v1), with v2 preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/8444c2d2148270f7af0a09c4945f33a469658ecd); v2.1 preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/b297a0aa3dbb26cc81aeeeb2061d53b145a5af19); v1 also preserved at [the original commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/a0dad4503c621923d42299cf8fdc377c3d13d03b).
 
 ## Interpretation and reproducibility limits
 
-This is a focused review, not a systematic review or saturation claim. Verification levels remain visible, including abstract-only and partial-page sources. The user supplied independent Opus critiques of v1 and published v2. These v2.1 amendments received a **self-check**, without a fresh independent review. No biological experiment or original-study analysis/simulation replication was run.
+This is a focused review, not a systematic review or saturation claim. Verification levels remain visible, including abstract-only and partial-page sources. The user supplied independent Opus critiques of v1 and published v2. The v2.1 amendments and this v2.2 method addition received **self-checks**. The later user-supplied fresh-answer comparison and Opus follow-up are recorded as bounded feedback; they are not a fresh independent audit of this entire package or a controlled workflow evaluation. No biological experiment or original-study analysis/simulation replication was run.
 
 Downloaded third-party papers, source extracts and figure renders are **not rehosted**. Follow primary links for inspection. The manifest records local retrieval and hashes, not full reading verification. Some studies were inspected through web-reader primary text/abstracts and are not download resources.
 

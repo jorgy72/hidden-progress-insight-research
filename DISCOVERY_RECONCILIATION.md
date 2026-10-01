@@ -1,0 +1,28 @@
+# Discovery reconciliation — method addition, version 2.2
+
+30 September 2026. This applies the reconciliation portion to the already-received fresh Opus answer. It is **retrospective**, not a claim that the new prospective workflow generated that answer. The exact received text and SHA256 are preserved locally; the user reported a fresh run without our workflow. Its original prompt, settings, search/reading logs and prior exposure were not supplied.
+
+Frozen received-text SHA256: `1e5ef4b0674a004ada6d7e6516f535db9c30024f435ed68c18ee213a84a1e5d6`. Baseline: [published v2.1](https://github.com/jorgy72/hidden-progress-insight-research/tree/b297a0aa3dbb26cc81aeeeb2061d53b145a5af19). Primary spot-checks were completed in the preceding comparison turn. This method update performs no further literature search or reading-depth upgrade. Version 2.1's report and ledger remain the scientific synthesis; these candidates have not been silently added as fully verified findings.
+
+| Candidate | Primary identity and actual inspection | Classification and coverage added | Outstanding next check |
+|---|---|---|---|
+| [Siegler & Stern 1998](https://pubmed.ncbi.nlm.nih.gov/9857493/) | Primary abstract checked; arithmetic response times and verbal strategy reports. | New relevant developmental/implicit-expression lead. | Inspect full trial-level Methods and condition-specific results; the five-trial/80% result depends on relevant problems every trial. |
+| [Stephen, Dixon & Isenhower 2009](https://pubmed.ncbi.nlm.nih.gov/19968438/) | Primary abstract checked; action dynamics during gear problem solving. | New behavioural-measure/early-warning lead. | Inspect entropy estimation, alignment and intervention controls; distinguish changing dynamics from useful solution content. |
+| [Pasupathy & Miller 2005](https://pubmed.ncbi.nlm.nih.gov/15729344/) | Primary abstract checked; monkey PFC/striatal associative-learning activity. | New primate/region-timing lead that challenges an overly uniform PFC-switch account. | Inspect individual neural/behavioural trajectories and time resolution; task is associative learning, not verified conscious insight. |
+| [Wirth et al. 2003](https://pubmed.ncbi.nlm.nih.gov/12791995/) | Primary abstract checked; monkey hippocampal selectivity around learning. | New primate timing lead; before/with/after changes reported. | Original temporal Methods/results needed to verify the fresh claim of gradual change; its bibliography linked a review. |
+| [Bissonette & Roesch 2015](https://pubmed.ncbi.nlm.nih.gov/26500516/) | Relevant primary XML Methods/Discussion checked. Fresh answer attributed its rat mPFC finding to Jang. | New relevant rat rule-encoding lead and confirmed attribution correction. | Inspect full Results/figures and criterion/alignment analyses before a core evidence row. Preserve the original misattribution. |
+| [Kumar et al., Do Mice Grok?](https://arxiv.org/abs/2411.03541) | Primary preprint abstract checked. | New adjacent overtraining lead: biological-data reanalysis plus artificial model. | Verify full reanalysis, dataset dependence and venue/version. Separate neural decoding after mastery from pre-insight dynamics. |
+| [Ellis et al. 2011](https://doi.org/10.1016/j.concog.2010.12.007) | Existing limited-reading row; fresh DOI instead resolved to [Murray et al. 2022](https://pubmed.ncbi.nlm.nih.gov/37465144/). | Existing evidence with confirmed wrong-link correction, not new replication. | Full original Methods remain to be audited; the link correction does not upgrade reading depth. |
+| Gallistel 2004; Wagner 2004/sleep follow-ups; Bowden 2003; Schaeffer 2023 | Leads identified in the supplied answer; detailed assertions not checked in this bounded comparison. | Deferred behavioural/methodological routes. Bowden 2003 is distinct from our 1998 anchor. | Resolve primary identities, relevance and reading depth before using specific numbers or replication claims. |
+
+## Follow-up feedback and its limits
+
+The user supplied a further Opus response accepting the Ellis link error, Bissonette/Jang attribution error and overgeneralization. Those concessions agree with the earlier primary checks; they do not replace them. Its coverage assessment is reasonable: the fresh answer added different strata while missing Rose/Townsend and other studies retained in our report. Its readability judgment is reviewer feedback rather than an objective metric.
+
+Two explanations remain unverified: that absence of a reading record caused the citation errors, and that this workflow caused greater accuracy. The supplied output alone cannot establish its unseen execution or a causal workflow effect. Nor is a missing study necessarily harmless: consequential omissions can change a conclusion. Both citation mappings and coverage deserve checking.
+
+## Adopted action and residual gap
+
+Added a neutral, bounded discovery pass before exposure to the existing synthesis, with context disclosure, saved output/search history and candidate reconciliation. Kept primary author/title/version/identifier checks and actual inspection levels. The later critic pass remains a separate step. The short plain-language opening remains mandatory.
+
+This addition is now operational in [WORKFLOW.md](WORKFLOW.md) and [the reusable template](FRESH_DISCOVERY_TEMPLATE.md). The unresolved leads above reopen developmental, primate and movement-dynamics coverage for a future substantive audit; this document does not claim that audit is complete. A controlled model/tool/budget-matched evaluation across several questions would be needed to estimate the method's benefit and cost.

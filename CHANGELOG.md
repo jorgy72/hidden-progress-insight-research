@@ -1,5 +1,11 @@
 # Dated changes
 
+## Workflow/handoff version 2.2 — 30 September 2026
+
+User-authorized addition of fresh discovery before exposure to the existing draft. Added a neutral prompt/context/freeze/reconciliation template and expanded the literature-audit template. Made same-study author/title/version/identifier mapping explicit. Added retrospective reconciliation of the fresh Opus leads and qualified its follow-up judgments. Reconciled the notebook's main sections and retained its dated history.
+
+The report, scientific evidence ledger and experiment proposal retain their v2.1 contents and inspection limits. No new independent discovery run, full literature rerun, causal workflow benchmark or upgraded source reading is claimed. Prior package [v2.1 is preserved](https://github.com/jorgy72/hidden-progress-insight-research/tree/b297a0aa3dbb26cc81aeeeb2061d53b145a5af19).
+
 ## Version 2.1 — 30 September 2026
 
 Responds to the user-supplied independent Opus review of v2. Reconciles every notebook main section with the actual verification ledger; historical entries are preserved and labelled. Restores concrete failed approaches/anomalies. Adds a short plain-language opening to the report/README and makes those requirements explicit in the workflow.

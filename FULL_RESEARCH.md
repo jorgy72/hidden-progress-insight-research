@@ -1,4 +1,4 @@
-# Complete research handoff — version 2.1, 30 September 2026
+# Complete research handoff — workflow/handoff 2.2; scientific report 2.1, 30 September 2026
 
 Original research question: During the stuck period before a sudden insight or abrupt strategy change, is there evidence of gradual measurable brain/behaviour change, or is the neural transition abrupt too? Include human and animal studies; cite the specific study, what was measured and generalization; separate direct evidence and model analogy; end with unknowns and a settling experiment.
 
@@ -8,9 +8,11 @@ Original research question: During the stuck period before a sudden insight or a
 
 ## File: README.md
 
-# Hidden progress before insight — version 2.1
+# Hidden progress before insight — workflow/handoff 2.2; research 2.1
 
-Focused research rerun, **30 September 2026**, revised after independent Opus reviews of versions 1 and 2. Human and animal evidence, precise measured variables, generalization limits, source inspection levels, competing mechanisms and an unrun discriminating experiment.
+**30 September 2026.** This package adds a fresh discovery stage to the reusable workflow. The scientific report, evidence ledger and proposed biological experiment remain version 2.1. No new literature rerun or reading-depth upgrade was performed for this method update.
+
+Discovery sequence: neutral brief → fresh context and bounded search → freeze output/log → reconcile candidates → verify and synthesize → critic pass. The received fresh Opus answer is reconciled retrospectively; its unseen search history and independence are not invented.
 
 **Read the whole handoff:** [FULL_RESEARCH.md](FULL_RESEARCH.md)
 
@@ -20,17 +22,18 @@ Feeling stuck does not necessarily mean nothing is changing. Some studies find u
 
 ## Contents
 
+- [Fresh discovery brief and record](FRESH_DISCOVERY_TEMPLATE.md), [literature audit template](LITERATURE_AUDIT_TEMPLATE.md) and [retrospective candidate reconciliation](DISCOVERY_RECONCILIATION.md).
 - [Report with plain-language opening](REPORT.md) and [evidence/inspection ledger](EVIDENCE_LEDGER.md).
 - [Indexed forward-citation audit](CITATION_INDEX_AUDIT.md), [metadata](CITATION_INDEX_RESULTS.json), [selected primary checks](CITATION_SCREENING_LOG.json) and reproducible citation-retrieval script.
 - [Registered search plan](SEARCH_PLAN.md), [search/selection audit](SEARCH_AUDIT.md), [exact query batches](SEARCH_BATCHES.json) and [machine-readable log](SEARCH_LOG.jsonl).
 - [Response to the critique and v2 self-review](REVIEW_RESPONSE.md), [dated changes](CHANGELOG.md) and [lab notebook](LAB_NOTEBOOK.md).
 - [Proposed experiment](NEXT_EXPERIMENT.md) and [research workflow](WORKFLOW.md).
 - [Declared download resources](SOURCE_LIST.json), [current cache manifest](source_manifest.json), [v1 history](SOURCE_HISTORY_V1.json), [v2 retrieval attempts](retrieval_attempts.jsonl), retrieval script/tests and [validation results](VALIDATION.json).
-- [Original v1 files](versions/v1), with v2 preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/8444c2d2148270f7af0a09c4945f33a469658ecd); v1 also preserved at [the original commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/a0dad4503c621923d42299cf8fdc377c3d13d03b).
+- [Original v1 files](versions/v1), with v2 preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/8444c2d2148270f7af0a09c4945f33a469658ecd); v2.1 preserved at [its commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/b297a0aa3dbb26cc81aeeeb2061d53b145a5af19); v1 also preserved at [the original commit](https://github.com/jorgy72/hidden-progress-insight-research/tree/a0dad4503c621923d42299cf8fdc377c3d13d03b).
 
 ## Interpretation and reproducibility limits
 
-This is a focused review, not a systematic review or saturation claim. Verification levels remain visible, including abstract-only and partial-page sources. The user supplied independent Opus critiques of v1 and published v2. These v2.1 amendments received a **self-check**, without a fresh independent review. No biological experiment or original-study analysis/simulation replication was run.
+This is a focused review, not a systematic review or saturation claim. Verification levels remain visible, including abstract-only and partial-page sources. The user supplied independent Opus critiques of v1 and published v2. The v2.1 amendments and this v2.2 method addition received **self-checks**. The later user-supplied fresh-answer comparison and Opus follow-up are recorded as bounded feedback; they are not a fresh independent audit of this entire package or a controlled workflow evaluation. No biological experiment or original-study analysis/simulation replication was run.
 
 Downloaded third-party papers, source extracts and figure renders are **not rehosted**. Follow primary links for inspection. The manifest records local retrieval and hashes, not full reading verification. Some studies were inspected through web-reader primary text/abstracts and are not download resources.
 
@@ -260,7 +263,7 @@ All additions remain **unrun proposals**. Published data/code were located for s
 
 ## File: LAB_NOTEBOOK.md
 
-# Lab Notebook — current synthesis, version 2.1
+# Lab Notebook — current synthesis v2.1; workflow package v2.2
 
 Investigation started 30 September 2026. The main sections below supersede earlier summaries. Dated entries at the end retain what was known and done at each stage; pending statements there are historical. Earlier report versions are preserved in GitHub history.
 
@@ -286,19 +289,19 @@ Animal switching illuminates some strategy dynamics, without establishing animal
 
 ## Experiments Run
 
-Focused literature audits and provenance checks, followed by a three-anchor indexed forward-citation check. No new biological experiment, original-data reanalysis or replication of the cited studies. Retrieval instrument tests address file integrity/repeatability, not scientific conclusions. Current report, ledger and proposed experiment are the version 2.1 handoff; local working files remain under research/2026-09-30-hidden-progress/v2.
+Focused literature audits and provenance checks, followed by a three-anchor indexed forward-citation check. No new biological experiment, original-data reanalysis or replication of the cited studies. Retrieval instrument tests address file integrity/repeatability, not scientific conclusions. The scientific report/ledger remain version 2.1. A supplied fresh-answer comparison found additional leads and two confirmed citation/attribution errors; it was not a controlled workflow experiment. The new prospective discovery path is adopted in workflow package v2.2, without claiming a new isolated discovery run. Current handoff documents are under research/2026-09-30-hidden-progress/v22.
 
 ## Results
 
-[The report](REPORT.md) and [inspection ledger](EVIDENCE_LEDGER.md) are authoritative for study-specific measurements and limits. Full relevant primary reading supports heterogeneous individual gaze trajectories in Bilalić, coarse pre-response attentional changes in Knoblich/Tseng, and neural representations preceding human switching in Schuck/Rose. Powell and Hasz support earlier rat neural state changes, without establishing a continuous solution ramp. Indexed follow-up adds Ninomiya's pre-expression gaze difference, Allegra's shared-data/pre-correlation connectivity, and Ding's earlier reward-related firing with smoothed decoding. Lu's human theta/stimulation, Russo's extinction and Singh's nonspecific plasticity remain provisional at abstract or excerpt depth. Townsend measures abrupt human aiming changes, not brain activity or independently reported Aha onset. Rosenberg shows both abrupt and gradual mouse behavioural improvement; Reddy supplies a competing model with reused behavioural data. Kuchibhotla supports context-dependent latent competence. Ellis, Kounios, Durstewitz and Karlsson remain abstract/preview-only; Drieu remains a two-page reading. Those limitations prevent upgrading them to fully verified strong/causal evidence. Nanda and other artificial systems remain analogies.
+[The report](REPORT.md) and [inspection ledger](EVIDENCE_LEDGER.md) are authoritative for study-specific measurements and limits. Full relevant primary reading supports heterogeneous individual gaze trajectories in Bilalić, coarse pre-response attentional changes in Knoblich/Tseng, and neural representations preceding human switching in Schuck/Rose. Powell and Hasz support earlier rat neural state changes, without establishing a continuous solution ramp. Indexed follow-up adds Ninomiya's pre-expression gaze difference, Allegra's shared-data/pre-correlation connectivity, and Ding's earlier reward-related firing with smoothed decoding. Lu's human theta/stimulation, Russo's extinction and Singh's nonspecific plasticity remain provisional at abstract or excerpt depth. Townsend measures abrupt human aiming changes, not brain activity or independently reported Aha onset. Rosenberg shows both abrupt and gradual mouse behavioural improvement; Reddy supplies a competing model with reused behavioural data. Kuchibhotla supports context-dependent latent competence. Ellis, Kounios, Durstewitz and Karlsson remain abstract/preview-only; Drieu remains a two-page reading. Those limitations prevent upgrading them to fully verified strong/causal evidence. Nanda and other artificial systems remain analogies. The subsequent fresh-answer comparison identifies further developmental, primate, movement-dynamics and overtraining candidates in [DISCOVERY_RECONCILIATION.md](DISCOVERY_RECONCILIATION.md); their stated reading depths are preserved, and they have not been promoted to fully audited report findings.
 
 ## Failed Approaches
 
-The v1 search stopped without defensible yield evidence and omitted relevant studies. An unlabeled download list could not reconstruct selection history. Some primary retrievals failed because of access checks, timeouts or extraction failures; available bytes did not establish reading. V2 corrected the report but failed to reconcile these notebook main sections and left stale placeholders. This version repairs that reporting failure while preserving historical entries. Web searches could not provide a genuine forward-citation export; the indexed follow-up now addresses that narrow gap, without proving comprehensive coverage.
+The v1 search stopped without defensible yield evidence and omitted relevant studies. An unlabeled download list could not reconstruct selection history. Some primary retrievals failed because of access checks, timeouts or extraction failures; available bytes did not establish reading. V2 corrected the report but failed to reconcile these notebook main sections and left stale placeholders. This version repairs that reporting failure while preserving historical entries. Web searches could not provide a genuine forward-citation export; the indexed follow-up now addresses that narrow gap, without proving comprehensive coverage. Further relevant leads in an externally supplied fresh answer show that the audited search remained incomplete; new discovery routes need explicit reconciliation.
 
 ## Surprises / Anomalies
 
-Graf's abrupt illustration uses simulated data rather than the original gradual empirical shift. Powell's neural change precedes behaviour yet is itself described as abrupt: precedence and gradualness are independent. Hasz's measurable drift need not be learning progress. Bilalić has 19% unclassifiable trajectories and a p = .06 subjective-suddenness comparison. Tseng has internal reporting discrepancies. Indexed citations yield further relevant leads, so neither repeated familiar hits nor this correction establishes saturation.
+Graf's abrupt illustration uses simulated data rather than the original gradual empirical shift. Powell's neural change precedes behaviour yet is itself described as abrupt: precedence and gradualness are independent. Hasz's measurable drift need not be learning progress. Bilalić has 19% unclassifiable trajectories and a p = .06 subjective-suddenness comparison. Tseng has internal reporting discrepancies. Indexed citations yield further relevant leads, so neither repeated familiar hits nor this correction establishes saturation. Fresh Opus added complementary populations/measures while missing studies our review retained. Its acceptance of two citation mistakes supports those primary checks, not a causal workflow-performance claim.
 
 ## Strongest Evidence For
 
@@ -326,15 +329,15 @@ Thresholded accumulation, attractor switching and strategy selection remain cand
 
 ## Newly Discovered Abstractions
 
-Separate acquisition, representation, strategy selection, expression and recognition; distinguish solution-content precursors from preparation/drift; distinguish an indexed citation from a verified relevant finding.
+Separate acquisition, representation, strategy selection, expression and recognition; distinguish solution-content precursors from preparation/drift; distinguish an indexed citation from a verified relevant finding. Separate fresh discovery from criticism of an existing draft; preserve complementary coverage before reconciling candidates.
 
 ## Next Best Experiment
 
-Prospective solution-content decoding trained independently; individual ramp/changepoint/hybrid/local-learning model comparison; model-recovery, equivalence, alignment and no-report/probe controls; randomized closed-loop rodent perturbations. [The proposed experiment](NEXT_EXPERIMENT.md) is unrun. A new toy simulation alone would not settle the biological question.
+Prospective solution-content decoding trained independently; individual ramp/changepoint/hybrid/local-learning model comparison; model-recovery, equivalence, alignment and no-report/probe controls; randomized closed-loop rodent perturbations. [The proposed experiment](NEXT_EXPERIMENT.md) is unrun. A new toy simulation alone would not settle the biological question. For the method addition, evaluate fresh discovery versus usual search with model, tools and budget held fixed across several questions; use blinded checks of consequential omissions, citation precision, unsupported claims, clarity and cost.
 
 ## Confidence / Remaining Uncertainty
 
-High confidence in the task-bounded coexistence of earlier measured change and abrupt expression/recorded transitions in fully inspected studies. Moderate confidence in the mixed organizing account; low confidence in prevalence, continuous synaptic accumulation, precursor necessity or generalization to prolonged natural human impasses. Limited-reading papers retain lower verification. Indexed coverage and deeper methods checks remain incomplete. Independent Opus feedback on v2 is user-supplied review testimony; the current corrections are self-checked, not a fresh independent review.
+High confidence in the task-bounded coexistence of earlier measured change and abrupt expression/recorded transitions in fully inspected studies. Moderate confidence in the mixed organizing account; low confidence in prevalence, continuous synaptic accumulation, precursor necessity or generalization to prolonged natural human impasses. Limited-reading papers retain lower verification. Indexed coverage and deeper methods checks remain incomplete. Independent Opus feedback on v2 is user-supplied review testimony; the current corrections are self-checked, not a fresh independent review. The discovery-stage addition is promising but has not been prospectively tested; the supplied comparison lacks controlled prompts/settings/budgets.
 
 ## Historical dated entries
 
@@ -397,6 +400,18 @@ Connector fetch of main/FULL_RESEARCH.md matched local text exactly (135,959 cha
 ## Version 2.1 review corrections prepared, 2026-09-30
 
 The user's independent Opus review of published v2 was checked against local artifacts. Main notebook sections reconciled; plain-language report opening added; source location removed from current workflow. Europe PMC and NCBI indexed forward retrieval succeeded for three anchors, yielding 317 Europe PMC anchor-record links/299 source-ID pairs. Fifteen selected primary abstracts checked; six studies added at actual inspection depth. Other records remain unscreened/deferred. Lu full XML failed with HTTP 500; Ding/Ninomiya XML succeeded. No saturation, complete global citing index, full causal Lu audit or fresh independent amendment review is claimed. Current changes await publication verification at this dated entry.
+
+## Version 2.1 publication verified, 2026-09-30
+
+Published commit b297a0aa3dbb26cc81aeeeb2061d53b145a5af19 at https://github.com/jorgy72/hidden-progress-insight-research. Anonymous pinned raw retrieval verified exact SHA256 bytes for all 36 public files; main/FULL_RESEARCH.md also matched the local handoff. Receipt: research/2026-09-30-hidden-progress/PUBLICATION_V21.json. The public notebook snapshot preserves its prepared/pending entry as dated history, superseded by this local receipt. The substantive main sections published are current. Six added studies retain their actual inspection depths, and full indexed screening/global coverage remain incomplete. Current public workflow omits the private source location; older commits were not rewritten.
+
+## Fresh unstructured Opus comparison, 2026-09-30
+
+Compared supplied fresh response with published v2.1; audit in research/2026-09-30-hidden-progress/fresh-opus-comparison/COMPARISON.md. New relevant child, primate, movement-dynamics and overtraining leads expose remaining coverage gaps. Targeted primary checks confirmed wrong Ellis DOI link and rat neural-finding misattribution to Jang (actual Bissonette & Roesch). Core conclusions overlap, but fresh prevalence/causal exclusivity statements exceed displayed support. Bilalic attention-onset association and individual subgroup p=.06 are different analyses; do not conflate them. Unseen fresh tool execution cannot be judged; this is not a controlled workflow evaluation. No full source rerun or new GitHub revision performed. Full fresh text/provenance and local primary checks preserved.
+
+## Fresh discovery path adopted, 2026-09-30
+
+User explicitly requested adding the discovery path and supplied Opus's follow-up acceptance of confirmed errors. WORKFLOW.md now requires a neutral brief, fresh-context exposure record, bounded search, saved discovery output and candidate reconciliation before synthesis. Added research/FRESH_DISCOVERY_TEMPLATE.md and expanded the literature-audit template. Reading-depth and identity checks remain compulsory; unavailable independence is disclosed rather than invented. Retrospective project reconciliation preserves new leads, unresolved checks and reviewer-vs-primary distinctions. Scientific report/ledger remain v2.1; this is a workflow/handoff v2.2 update, not a new literature rerun or controlled benchmark. Publication verification follows separately.
 
 
 ---
@@ -645,12 +660,22 @@ Reviewer spot-checks are testimony, not independent primary verification by this
 
 Checked notebook/report consistency, every added study's inspection label, actual indexed API success/counts, duplicate publication families, publication-date limits and complete-export privacy/link integrity. Allegra's shared dataset/pre-correlation signal, Ding's smoothing and Ninomiya's broad equivalence bounds were checked in primary text. Lu's XML failure prevents a full causal-method claim. Remaining index records are explicitly unscreened/deferred, not silent exclusions. No new biological study or original-data replication was run.
 
+## Fresh-answer comparison and subsequent Opus feedback — workflow v2.2
+
+The user supplied fresh Opus output and a subsequent acceptance of the two independently checked citation errors. Adopted a prospective fresh-discovery stage before exposure to the existing synthesis; [reconciliation](DISCOVERY_RECONCILIATION.md) records candidate status and remaining checks. Opus's concessions are feedback, not additional primary verification. Its proposed causal explanation of errors and overall workflow score remain untested. A missing study can materially change conclusions, so coverage checks retain equal methodological importance. No new independent review of this workflow amendment or fresh research run is claimed.
+
 
 ---
 
 ## File: CHANGELOG.md
 
 # Dated changes
+
+## Workflow/handoff version 2.2 — 30 September 2026
+
+User-authorized addition of fresh discovery before exposure to the existing draft. Added a neutral prompt/context/freeze/reconciliation template and expanded the literature-audit template. Made same-study author/title/version/identifier mapping explicit. Added retrospective reconciliation of the fresh Opus leads and qualified its follow-up judgments. Reconciled the notebook's main sections and retained its dated history.
+
+The report, scientific evidence ledger and experiment proposal retain their v2.1 contents and inspection limits. No new independent discovery run, full literature rerun, causal workflow benchmark or upgraded source reading is claimed. Prior package [v2.1 is preserved](https://github.com/jorgy72/hidden-progress-insight-research/tree/b297a0aa3dbb26cc81aeeeb2061d53b145a5af19).
 
 ## Version 2.1 — 30 September 2026
 
@@ -803,6 +828,21 @@ When a new investigation replaces the current one, preserve the previous noteboo
 
 Added 2026-09-30 after external review of the hidden-progress investigation. Scale these checks to the question; a focused assessment must not imply systematic coverage.
 
+### Fresh discovery before reading the existing synthesis
+
+Added 2026-09-30 after comparing a fresh Opus answer with the audited insight review. Their complementary coverage motivates this addition; one uncontrolled comparison does not establish that the method improves accuracy.
+
+For substantial literature investigations, use this sequence: **neutral brief -> fresh discovery -> freeze the discovery record -> reconcile with the ledger -> verify and synthesize -> critic pass**. This discovery pass complements the later critic: it searches without knowing the draft's preferred account, while the critic examines the assembled result.
+
+- Before the discovery researcher sees the draft, give only the original question, user constraints, cutoff, scope, output requirements and source-checking rules. Withhold the current answer, chosen anchors, bibliography, evidence ledger and reviewer omission lists. Choose search routes from the question, covering supporting, opposing and null findings, populations/development/species, tasks, measures, timescales and alternative mechanisms. A previous report must not define the entire search space.
+- Use a separate researcher in a fresh context when available and authorized. A new role, second pass, or model label in the same exposed conversation is not independent discovery. Record researcher/model/settings if known, the exact brief and what material was visible; disclose accidental exposure. If fresh context is unavailable, perform a bounded exploratory search but label it as an already-exposed search. Continue the authorized work without inventing independence or blocking delivery solely on this step.
+- Declare the pass's scope and practical stopping bound before searching. Produce a concise candidate map, exact search/citation routes, source identifiers and inspection/access status, including contrary evidence and empty routes. Check each cited author, title, publication version/year and DOI/PMID/URL against a primary record. Unresolved mappings remain unverified leads; preserve the original mismatch and correction. Do not infer full reading from access or repeat a model's claim as a source finding.
+- Save the discovery output, brief, search log and known context before exposing the researcher to the existing draft. Record a timestamp and file hash when available. For externally supplied work, preserve the received text and mark missing prompt/settings/search history as unknown; do not reconstruct them as contemporaneous evidence.
+- Then reconcile every material candidate with the current evidence ledger: existing evidence, genuinely new relevant lead, duplicate publication/dataset, background, excluded with reason, or deferred with a named next check. Check original primary methods/results before promoting a consequential claim; carry the actual reading depth into every summary. Count distinct studies separately from publications and datasets. Reopen the affected coverage route when a material gap appears.
+- Report what the fresh pass added or challenged, its marginal verification/search cost if known, and what remains unresolved. A negative/no-new-lead pass is also a result. Do not select a story by how confidently or elegantly a model narrates it, and do not claim saturation from a bounded pass.
+
+Use [FRESH_DISCOVERY_TEMPLATE.md](FRESH_DISCOVERY_TEMPLATE.md) for the neutral brief, discovery record and reconciliation. Keep the opening answer readable: one short plain-language account with its main uncertainty, followed by the technical ledger. Missing evidence can change a conclusion, so audit consequential omissions alongside citation errors.
+
 ### Search provenance and coverage
 
 - Define inclusion/exclusion criteria and a coverage map before searching: populations/species, tasks, measures, timescales, competing mechanisms, supporting and opposing findings. Search for each materially different explanation rather than following only the first promising papers.
@@ -814,6 +854,7 @@ Added 2026-09-30 after external review of the hidden-progress investigation. Sca
 
 ### Claim-level verification
 
+- Resolve the cited author/title/publication version and identifier to the same primary study before using a citation. A real paper behind a wrong DOI or wrong author attribution is still a citation error; record and correct it.
 - Carry verification into the final report at the point of the claim, including evidence-table rows: relevant full-text methods/results inspected; named pages/figures inspected; abstract/preview only; or secondary/unverified lead. Downloading or extracting a file does not establish that its contents were read. Full-text access does not mean the entire study or supplements were audited.
 - Keep verification depth separate from evidential strength. Record task, participants/animals, measured variable, temporal resolution, analysis, what the result supports, alternative explanations and generalization limits. Avoid conclusions that require unavailable methods or results.
 - Maintain an evidence ontology that follows the question. Preparatory state, solution-related precursor, gradual accumulation, abrupt transition, latent knowledge and analogy can differ and coexist. Temporal precedence does not establish gradualness, causality or correct solution content.
@@ -1652,6 +1693,19 @@ if __name__=='__main__': unittest.main()
     "fresh_independent_amendment_review": "not performed",
     "publication_verification": "separate receipt after publication",
     "syntax_check": "ast.parse passed; py_compile attempted a system cache write and was replaced with a read-only parse"
+  },
+  "version_2_2": {
+    "scientific_report_ledger_experiment_byte_identical_to_2_1": true,
+    "notebook_export_matches_current_at_build": true,
+    "workflow_matches_canonical_except_export_relative_link": true,
+    "reusable_templates_match_canonical": true,
+    "date": "2026-09-30",
+    "new_fresh_context_research_run": "not performed; received output reconciled retrospectively",
+    "new_primary_reading_upgrades": "none",
+    "fresh_independent_method_review": "not performed",
+    "performance_benefit": "untested",
+    "publication_verification": "separate receipt after publication",
+    "unchanged_retrieval_tests": "earlier results retained as history; not rerun for document-only change"
   }
 }
 ```
@@ -6171,3 +6225,192 @@ for name, pmid in ANCHORS.items():
     print(name, 'Europe PMC returned', len(anchor['records']), 'records;', 'errors', len(anchor['errors']), flush=True)
     time.sleep(.4)
 ```
+
+
+---
+
+## File: FRESH_DISCOVERY_TEMPLATE.md
+
+# Fresh discovery template
+
+For substantial literature research. Complete the brief before searching; freeze the discovery record before revealing the existing synthesis. This is a search for complementary evidence, not a competing polished answer or a guarantee of exhaustive coverage.
+
+## Neutral brief to provide
+
+> Research question: [original question, without the existing answer or selected papers].
+>
+> User constraints, populations/tasks, cutoff date, language and intended use: [fill].
+>
+> Declared scope/stopping bound: [fill; do not claim saturation from this bound].
+>
+> Search primary literature for materially different explanations, supporting, opposing and null findings. Choose routes from the question. Include overlooked populations, developmental groups/species, measures and timescales when relevant. Do not read the existing draft, chosen bibliography, ledger or reviewer omission lists before saving your discovery output. If you encounter them accidentally, record that exposure.
+>
+> Return a short candidate map, measured variables and generalization limits, contrary findings, exact queries/citation routes, identifiers, inspection depth and access failures. Verify author/title/publication version and DOI/PMID/URL against a primary record; keep unresolved identities as unverified leads. Distinguish findings, inference, analogy and unknowns. Do not call earlier activity useful progress without evidence of relevance, or treat a matching model as a measured biological mechanism.
+>
+> Save the brief, candidate map and search log before seeing the existing draft. Report the declared bound, actual yield, residual gaps and why you stopped. A no-new-lead result is valid. Do not invent search or reading history.
+
+Adapt the last subject-specific examples to the question; source-checking and uncertainty rules apply to every task.
+
+## Context and freeze record
+
+- Inquiry/date/cutoff:
+- Researcher/model/settings (unknown is acceptable):
+- Status: fresh context / already-exposed exploratory search / externally supplied output with unknown exposure:
+- Exact brief and visible materials:
+- Existing draft/bibliography/ledger withheld:
+- Accidental exposure and impact:
+- Search scope/bound declared before searching:
+- Saved output and search-log paths:
+- Timestamp and output SHA256, or unavailable:
+- External-output provenance that was not supplied:
+
+A separate researcher with deliberately limited context can reduce anchoring. It does not establish independence between models' training data or a controlled experimental comparison. Do not call a same-conversation second pass fresh.
+
+## Candidate map and source checks
+
+| Candidate | Discovery route/query | Author/title/version/DOI or PMID match | Task/species/measure/timescale | Potential relevance or counterevidence | Inspection depth/access | Uncertainty |
+|---|---|---|---|---|---|---|
+
+Record exact engine/database, filters and query/citation URLs in the accompanying SEARCH_LOG. Preserve empty searches, access failures and mistaken identity mappings. Distinguish preprint/final versions and papers using the same data.
+
+## Reconcile only after freezing discovery
+
+| Candidate | Existing/new/duplicate/background/excluded/deferred | Reason and changed coverage | Primary verification completed | Current claim limit | Next check/owner/status |
+|---|---|---|---|---|---|
+
+Prioritize leads that could change the conclusion. Retain rejected/deferred leads with reasons; a candidate is not automatically a report finding. Display reading depth at the point of use. Do not let a smooth narrative erase contradictions.
+
+## Outcome and handoff
+
+- Added evidence, missing populations/measures, alternative mechanisms or contradictions:
+- Citation corrections and false positives:
+- No-new-evidence result, if applicable:
+- Search/verification cost, if known:
+- Remaining gaps and stopping reason:
+- Reconciled report, ledger and notebook main sections:
+- Short plain-language answer plus technical evidence:
+- Later critic pass and its independence/status:
+
+One paired answer cannot establish that this workflow causes better accuracy. For a performance claim, hold model/question/tools/budget fixed, compare across several questions and use blinded checks of citation precision, consequential omissions, unsupported claims, clarity and cost.
+
+
+---
+
+## File: LITERATURE_AUDIT_TEMPLATE.md
+
+# Literature audit template
+
+Copy into each substantial literature investigation and fill while working. Mark unavailable fields explicitly; do not reconstruct missing history as contemporaneous evidence.
+
+## Scope and competing explanations
+
+- Question and cutoff date:
+- Focused assessment or systematic review:
+- Inclusion/exclusion criteria:
+- Coverage map (population, task, measure, timescale, mechanism):
+- Anchors and why selected:
+- Supporting, opposing and null findings sought:
+
+## Fresh discovery and context record
+
+Complete before showing the discovery researcher the existing draft. Use [FRESH_DISCOVERY_TEMPLATE.md](FRESH_DISCOVERY_TEMPLATE.md).
+
+- Exact neutral brief, constraints/cutoff and declared search bound:
+- Researcher/model/settings, or unknown:
+- Fresh context, already-exposed search, or externally supplied output with unknown exposure:
+- Visible/withheld material and accidental exposure:
+- Preserved output/search log, timestamp/hash and missing provenance:
+- Primary author/title/version/identifier checks and unresolved mappings:
+
+## Reconciliation after freezing discovery
+
+| Candidate and route | Same primary study/version confirmed? | Existing/new/duplicate/background/excluded/deferred | What it adds or contradicts | Reading depth | Verification or next check |
+|---|---|---|---|---|---|
+
+- New relevant studies, species/developmental groups, measures and mechanisms:
+- Consequential omissions and false/unsupported leads:
+- Remaining leads, access gaps, cost if known and reason for stopping:
+- Existing synthesis revised, or no-new-evidence outcome recorded:
+- Independence limitations; no uncontrolled workflow-performance claim:
+
+## Search and selection log
+
+| Batch/date | Engine/database and filters | Exact query or citation route | Candidates (DOI/PMID/URL) | Keep/drop/defer and reason | Access/result |
+|---|---|---|---|---|---|
+
+## Citation audit
+
+| Anchor | Backward references checked | Forward service/date checked | New candidates/decision | Limitations |
+|---|---|---|---|---|
+
+## Claim extraction
+
+| Claim/study | Population/task | Actual measure and resolution | Result and alternative explanations | Verification: sections/pages/figures or abstract only | Generalization |
+|---|---|---|---|---|---|
+
+## Retrieval reconciliation
+
+- Declared source list and stable identifiers:
+- Script/manifest version and historical differences:
+- Cached repeat-run check and result:
+- Refresh/attempt history and changed hashes:
+- Extraction failures and visual checks:
+
+## Stopping decision
+
+- Final batch/citation-route yield:
+- New evidence affecting conclusions:
+- Remaining unfilled coverage and unresolved relevant candidates:
+- Reason for stopping (demonstrated diminishing returns, scope, time, access):
+- Conditions for reopening:
+
+## Critic response
+
+- Reviewer and independence, or clearly labelled self-check:
+- Materials provided and checks performed:
+
+| Criticism | Primary verification | Accept/qualify/reject/unresolved | Action | Rechecked/status |
+|---|---|---|---|---|
+
+## Handoff
+
+- Plain-language opening and technical evidence/limitations:
+- Notebook main sections reconciled and historical entries labelled:
+- Report, fresh-discovery/reconciliation records, search/selection log, evidence/access ledger, notebook and exclusions included:
+- Version, date, change log and publication status:
+- Experiments run versus proposed:
+- Remaining material limitations:
+
+
+---
+
+## File: DISCOVERY_RECONCILIATION.md
+
+# Discovery reconciliation — method addition, version 2.2
+
+30 September 2026. This applies the reconciliation portion to the already-received fresh Opus answer. It is **retrospective**, not a claim that the new prospective workflow generated that answer. The exact received text and SHA256 are preserved locally; the user reported a fresh run without our workflow. Its original prompt, settings, search/reading logs and prior exposure were not supplied.
+
+Frozen received-text SHA256: `1e5ef4b0674a004ada6d7e6516f535db9c30024f435ed68c18ee213a84a1e5d6`. Baseline: [published v2.1](https://github.com/jorgy72/hidden-progress-insight-research/tree/b297a0aa3dbb26cc81aeeeb2061d53b145a5af19). Primary spot-checks were completed in the preceding comparison turn. This method update performs no further literature search or reading-depth upgrade. Version 2.1's report and ledger remain the scientific synthesis; these candidates have not been silently added as fully verified findings.
+
+| Candidate | Primary identity and actual inspection | Classification and coverage added | Outstanding next check |
+|---|---|---|---|
+| [Siegler & Stern 1998](https://pubmed.ncbi.nlm.nih.gov/9857493/) | Primary abstract checked; arithmetic response times and verbal strategy reports. | New relevant developmental/implicit-expression lead. | Inspect full trial-level Methods and condition-specific results; the five-trial/80% result depends on relevant problems every trial. |
+| [Stephen, Dixon & Isenhower 2009](https://pubmed.ncbi.nlm.nih.gov/19968438/) | Primary abstract checked; action dynamics during gear problem solving. | New behavioural-measure/early-warning lead. | Inspect entropy estimation, alignment and intervention controls; distinguish changing dynamics from useful solution content. |
+| [Pasupathy & Miller 2005](https://pubmed.ncbi.nlm.nih.gov/15729344/) | Primary abstract checked; monkey PFC/striatal associative-learning activity. | New primate/region-timing lead that challenges an overly uniform PFC-switch account. | Inspect individual neural/behavioural trajectories and time resolution; task is associative learning, not verified conscious insight. |
+| [Wirth et al. 2003](https://pubmed.ncbi.nlm.nih.gov/12791995/) | Primary abstract checked; monkey hippocampal selectivity around learning. | New primate timing lead; before/with/after changes reported. | Original temporal Methods/results needed to verify the fresh claim of gradual change; its bibliography linked a review. |
+| [Bissonette & Roesch 2015](https://pubmed.ncbi.nlm.nih.gov/26500516/) | Relevant primary XML Methods/Discussion checked. Fresh answer attributed its rat mPFC finding to Jang. | New relevant rat rule-encoding lead and confirmed attribution correction. | Inspect full Results/figures and criterion/alignment analyses before a core evidence row. Preserve the original misattribution. |
+| [Kumar et al., Do Mice Grok?](https://arxiv.org/abs/2411.03541) | Primary preprint abstract checked. | New adjacent overtraining lead: biological-data reanalysis plus artificial model. | Verify full reanalysis, dataset dependence and venue/version. Separate neural decoding after mastery from pre-insight dynamics. |
+| [Ellis et al. 2011](https://doi.org/10.1016/j.concog.2010.12.007) | Existing limited-reading row; fresh DOI instead resolved to [Murray et al. 2022](https://pubmed.ncbi.nlm.nih.gov/37465144/). | Existing evidence with confirmed wrong-link correction, not new replication. | Full original Methods remain to be audited; the link correction does not upgrade reading depth. |
+| Gallistel 2004; Wagner 2004/sleep follow-ups; Bowden 2003; Schaeffer 2023 | Leads identified in the supplied answer; detailed assertions not checked in this bounded comparison. | Deferred behavioural/methodological routes. Bowden 2003 is distinct from our 1998 anchor. | Resolve primary identities, relevance and reading depth before using specific numbers or replication claims. |
+
+## Follow-up feedback and its limits
+
+The user supplied a further Opus response accepting the Ellis link error, Bissonette/Jang attribution error and overgeneralization. Those concessions agree with the earlier primary checks; they do not replace them. Its coverage assessment is reasonable: the fresh answer added different strata while missing Rose/Townsend and other studies retained in our report. Its readability judgment is reviewer feedback rather than an objective metric.
+
+Two explanations remain unverified: that absence of a reading record caused the citation errors, and that this workflow caused greater accuracy. The supplied output alone cannot establish its unseen execution or a causal workflow effect. Nor is a missing study necessarily harmless: consequential omissions can change a conclusion. Both citation mappings and coverage deserve checking.
+
+## Adopted action and residual gap
+
+Added a neutral, bounded discovery pass before exposure to the existing synthesis, with context disclosure, saved output/search history and candidate reconciliation. Kept primary author/title/version/identifier checks and actual inspection levels. The later critic pass remains a separate step. The short plain-language opening remains mandatory.
+
+This addition is now operational in [WORKFLOW.md](WORKFLOW.md) and [the reusable template](FRESH_DISCOVERY_TEMPLATE.md). The unresolved leads above reopen developmental, primate and movement-dynamics coverage for a future substantive audit; this document does not claim that audit is complete. A controlled model/tool/budget-matched evaluation across several questions would be needed to estimate the method's benefit and cost.

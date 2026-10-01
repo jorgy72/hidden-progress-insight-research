@@ -35,5 +35,18 @@
     "fresh_independent_amendment_review": "not performed",
     "publication_verification": "separate receipt after publication",
     "syntax_check": "ast.parse passed; py_compile attempted a system cache write and was replaced with a read-only parse"
+  },
+  "version_2_2": {
+    "scientific_report_ledger_experiment_byte_identical_to_2_1": true,
+    "notebook_export_matches_current_at_build": true,
+    "workflow_matches_canonical_except_export_relative_link": true,
+    "reusable_templates_match_canonical": true,
+    "date": "2026-09-30",
+    "new_fresh_context_research_run": "not performed; received output reconciled retrospectively",
+    "new_primary_reading_upgrades": "none",
+    "fresh_independent_method_review": "not performed",
+    "performance_benefit": "untested",
+    "publication_verification": "separate receipt after publication",
+    "unchanged_retrieval_tests": "earlier results retained as history; not rerun for document-only change"
   }
 }

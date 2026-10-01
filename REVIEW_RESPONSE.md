@@ -44,3 +44,7 @@ Reviewer spot-checks are testimony, not independent primary verification by this
 ## Self-check of the amendments
 
 Checked notebook/report consistency, every added study's inspection label, actual indexed API success/counts, duplicate publication families, publication-date limits and complete-export privacy/link integrity. Allegra's shared dataset/pre-correlation signal, Ding's smoothing and Ninomiya's broad equivalence bounds were checked in primary text. Lu's XML failure prevents a full causal-method claim. Remaining index records are explicitly unscreened/deferred, not silent exclusions. No new biological study or original-data replication was run.
+
+## Fresh-answer comparison and subsequent Opus feedback — workflow v2.2
+
+The user supplied fresh Opus output and a subsequent acceptance of the two independently checked citation errors. Adopted a prospective fresh-discovery stage before exposure to the existing synthesis; [reconciliation](DISCOVERY_RECONCILIATION.md) records candidate status and remaining checks. Opus's concessions are feedback, not additional primary verification. Its proposed causal explanation of errors and overall workflow score remain untested. A missing study can materially change conclusions, so coverage checks retain equal methodological importance. No new independent review of this workflow amendment or fresh research run is claimed.

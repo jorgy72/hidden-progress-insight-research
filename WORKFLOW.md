@@ -122,6 +122,21 @@ When a new investigation replaces the current one, preserve the previous noteboo
 
 Added 2026-09-30 after external review of the hidden-progress investigation. Scale these checks to the question; a focused assessment must not imply systematic coverage.
 
+### Fresh discovery before reading the existing synthesis
+
+Added 2026-09-30 after comparing a fresh Opus answer with the audited insight review. Their complementary coverage motivates this addition; one uncontrolled comparison does not establish that the method improves accuracy.
+
+For substantial literature investigations, use this sequence: **neutral brief -> fresh discovery -> freeze the discovery record -> reconcile with the ledger -> verify and synthesize -> critic pass**. This discovery pass complements the later critic: it searches without knowing the draft's preferred account, while the critic examines the assembled result.
+
+- Before the discovery researcher sees the draft, give only the original question, user constraints, cutoff, scope, output requirements and source-checking rules. Withhold the current answer, chosen anchors, bibliography, evidence ledger and reviewer omission lists. Choose search routes from the question, covering supporting, opposing and null findings, populations/development/species, tasks, measures, timescales and alternative mechanisms. A previous report must not define the entire search space.
+- Use a separate researcher in a fresh context when available and authorized. A new role, second pass, or model label in the same exposed conversation is not independent discovery. Record researcher/model/settings if known, the exact brief and what material was visible; disclose accidental exposure. If fresh context is unavailable, perform a bounded exploratory search but label it as an already-exposed search. Continue the authorized work without inventing independence or blocking delivery solely on this step.
+- Declare the pass's scope and practical stopping bound before searching. Produce a concise candidate map, exact search/citation routes, source identifiers and inspection/access status, including contrary evidence and empty routes. Check each cited author, title, publication version/year and DOI/PMID/URL against a primary record. Unresolved mappings remain unverified leads; preserve the original mismatch and correction. Do not infer full reading from access or repeat a model's claim as a source finding.
+- Save the discovery output, brief, search log and known context before exposing the researcher to the existing draft. Record a timestamp and file hash when available. For externally supplied work, preserve the received text and mark missing prompt/settings/search history as unknown; do not reconstruct them as contemporaneous evidence.
+- Then reconcile every material candidate with the current evidence ledger: existing evidence, genuinely new relevant lead, duplicate publication/dataset, background, excluded with reason, or deferred with a named next check. Check original primary methods/results before promoting a consequential claim; carry the actual reading depth into every summary. Count distinct studies separately from publications and datasets. Reopen the affected coverage route when a material gap appears.
+- Report what the fresh pass added or challenged, its marginal verification/search cost if known, and what remains unresolved. A negative/no-new-lead pass is also a result. Do not select a story by how confidently or elegantly a model narrates it, and do not claim saturation from a bounded pass.
+
+Use [FRESH_DISCOVERY_TEMPLATE.md](FRESH_DISCOVERY_TEMPLATE.md) for the neutral brief, discovery record and reconciliation. Keep the opening answer readable: one short plain-language account with its main uncertainty, followed by the technical ledger. Missing evidence can change a conclusion, so audit consequential omissions alongside citation errors.
+
 ### Search provenance and coverage
 
 - Define inclusion/exclusion criteria and a coverage map before searching: populations/species, tasks, measures, timescales, competing mechanisms, supporting and opposing findings. Search for each materially different explanation rather than following only the first promising papers.
@@ -133,6 +148,7 @@ Added 2026-09-30 after external review of the hidden-progress investigation. Sca
 
 ### Claim-level verification
 
+- Resolve the cited author/title/publication version and identifier to the same primary study before using a citation. A real paper behind a wrong DOI or wrong author attribution is still a citation error; record and correct it.
 - Carry verification into the final report at the point of the claim, including evidence-table rows: relevant full-text methods/results inspected; named pages/figures inspected; abstract/preview only; or secondary/unverified lead. Downloading or extracting a file does not establish that its contents were read. Full-text access does not mean the entire study or supplements were audited.
 - Keep verification depth separate from evidential strength. Record task, participants/animals, measured variable, temporal resolution, analysis, what the result supports, alternative explanations and generalization limits. Avoid conclusions that require unavailable methods or results.
 - Maintain an evidence ontology that follows the question. Preparatory state, solution-related precursor, gradual accumulation, abrupt transition, latent knowledge and analogy can differ and coexist. Temporal precedence does not establish gradualness, causality or correct solution content.
